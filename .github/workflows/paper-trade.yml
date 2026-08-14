@@ -1,0 +1,59 @@
+name: paper-trade
+
+# Every 10 minutes. Hourly bars tolerate that easily, and GitHub's scheduler
+# drifts under load — the engine catches up on any bars a missed window skipped,
+# so a late run costs entry precision but never corrupts the ledger.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Two ticks writing state at once would clobber each other.
+concurrency:
+  group: paper-trade
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run one paper-trading tick
+        run: python run.py once
+
+      - name: Rebuild dashboard
+        run: python run.py report
+
+      - name: Commit ledger
+        run: |
+          git config user.name  "paper-bot"
+          git config user.email "paper-bot@users.noreply.github.com"
+          git add state reports
+          if git diff --staged --quiet; then
+            echo "nothing changed this tick"
+            exit 0
+          fi
+          git commit -m "tick: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          # Another tick may have pushed while this one ran.
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && \
+            git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "push race, retry $i"
+            sleep $((RANDOM % 10 + 3))
+          done
+          echo "could not push after 5 attempts" >&2
+          exit 1

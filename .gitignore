@@ -1,0 +1,9 @@
+# Market data cache — regenerated on demand, far too big to version
+cache/
+.venv/
+__pycache__/
+*.pyc
+
+# Research output, but keep the committed summaries
+reports/backtest_trades.csv
+reports/montecarlo_windows.csv
