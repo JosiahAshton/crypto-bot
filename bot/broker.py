@@ -118,8 +118,22 @@ def new_book(book: Book, start_usd: float) -> BookState:
 # --------------------------------------------------------------------------
 
 
+def canon(symbol: str) -> str:
+    """BTC-USDT-SWAP -> BTCUSDT.
+
+    The cost and leverage tables are keyed on Binance-style names, but the
+    engine may be fed OKX instrument ids when Binance is unreachable. Without
+    this every OKX symbol silently falls through to the defaults.
+    """
+    if symbol.endswith("-SWAP"):
+        parts = symbol.split("-")
+        if len(parts) >= 2:
+            return f"{parts[0]}{parts[1]}"
+    return symbol
+
+
 def half_spread(symbol: str) -> float:
-    return C.HALF_SPREAD_BPS.get(symbol, C.DEFAULT_HALF_SPREAD_BPS) / 1e4
+    return C.HALF_SPREAD_BPS.get(canon(symbol), C.DEFAULT_HALF_SPREAD_BPS) / 1e4
 
 
 def impact(notional: float) -> float:
@@ -145,11 +159,11 @@ def exit_slippage(symbol: str, notional: float) -> float:
 
 
 def max_leverage(symbol: str) -> float:
-    return float(C.MAX_LEVERAGE.get(symbol, C.DEFAULT_MAX_LEVERAGE))
+    return float(C.MAX_LEVERAGE.get(canon(symbol), C.DEFAULT_MAX_LEVERAGE))
 
 
 def maintenance_margin(symbol: str) -> float:
-    return C.MAINTENANCE_MARGIN.get(symbol, C.DEFAULT_MAINTENANCE_MARGIN)
+    return C.MAINTENANCE_MARGIN.get(canon(symbol), C.DEFAULT_MAINTENANCE_MARGIN)
 
 
 # --------------------------------------------------------------------------

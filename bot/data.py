@@ -13,11 +13,36 @@ from datetime import datetime, timezone
 import pandas as pd
 import requests
 
-from . import config as C
+from . import config as C, okx
 
 BASE = "https://fapi.binance.com"
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": "crypto-bot/1.0"})
+
+# Binance answers US IPs — including every GitHub Actions runner — with HTTP
+# 451, so the venue is detected once at startup and everything below routes to
+# whichever source actually responds. Prices agree to a few basis points, so the
+# strategy validated on Binance data behaves the same on OKX.
+_VENUE: str | None = None
+
+
+def venue() -> str:
+    """"binance" where reachable, otherwise "okx". Probed once per process."""
+    global _VENUE
+    if _VENUE is None:
+        forced = os.environ.get("CRYPTO_BOT_VENUE", "").strip().lower()
+        if forced in ("binance", "okx"):
+            _VENUE = forced
+            print(f"data venue: {_VENUE} (forced via CRYPTO_BOT_VENUE)")
+            return _VENUE
+        try:
+            SESSION.get(BASE + "/fapi/v1/ping", timeout=15).raise_for_status()
+            _VENUE = "binance"
+        except requests.RequestException:
+            _VENUE = "okx" if okx.ping() else "binance"
+        if _VENUE != "binance":
+            print(f"data venue: {_VENUE} (binance unreachable from this host)")
+    return _VENUE
 
 _MS_PER_BAR = {"1h": 3_600_000, "15m": 900_000, "4h": 14_400_000, "1d": 86_400_000}
 
@@ -69,6 +94,9 @@ _KLINE_COLS = [
 
 def fetch_klines(symbol: str, interval: str, start, end=None) -> pd.DataFrame:
     """Paginate klines from `start` to `end` (exclusive of unclosed bars)."""
+    if venue() == "okx":
+        return okx.klines(symbol, interval, start, end)
+
     step = _MS_PER_BAR[interval]
     start_ms = _to_ms(start)
     end_ms = _to_ms(end) if end is not None else int(time.time() * 1000)
@@ -117,6 +145,9 @@ def forming_bar(symbol: str, interval: str = C.TIMEFRAME) -> pd.Series | None:
     would already have been hit. Both are needed to execute live the way the
     backtest assumes.
     """
+    if venue() == "okx":
+        return okx.forming_bar(symbol, interval)
+
     rows = _get("/fapi/v1/klines",
                 {"symbol": symbol, "interval": interval, "limit": 2})
     if not rows:
@@ -181,6 +212,9 @@ def load_klines(symbol: str, interval: str = C.TIMEFRAME,
 
 def fetch_funding(symbol: str, start, end=None) -> pd.Series:
     """Historical realised funding rates (settled every 8h)."""
+    if venue() == "okx":
+        return okx.funding(symbol, start, end)
+
     start_ms = _to_ms(start)
     end_ms = _to_ms(end) if end is not None else int(time.time() * 1000)
     rows: list[dict] = []
@@ -236,6 +270,8 @@ def load_funding(symbol: str, start: str = C.BACKTEST_START) -> pd.Series:
 
 def current_funding(symbol: str) -> float:
     """Live predicted funding rate for the next settlement."""
+    if venue() == "okx":
+        return okx.current_funding(symbol)
     try:
         data = _get("/fapi/v1/premiumIndex", {"symbol": symbol})
         return float(data["lastFundingRate"])
@@ -252,6 +288,53 @@ def exchange_info() -> dict:
     return _get("/fapi/v1/exchangeInfo")
 
 
+def _atr_pct_day(daily: pd.DataFrame) -> float:
+    prev_close = daily["close"].shift(1)
+    tr = pd.concat([
+        daily["high"] - daily["low"],
+        (daily["high"] - prev_close).abs(),
+        (daily["low"] - prev_close).abs(),
+    ], axis=1).max(axis=1)
+    return float((tr / daily["close"]).mean() * 100)
+
+
+def _screen_okx(slots: int) -> list[str]:
+    """Same rules as the Binance screen, using OKX-native instrument ids."""
+    meta = okx.instruments()
+    now = utcnow()
+    core = [okx.inst_id(s) for s in C.CORE_SYMBOLS]
+
+    candidates = []
+    for inst, quote_vol in okx.perp_tickers():
+        if inst in core or quote_vol < C.MIN_QUOTE_VOLUME_USD:
+            continue
+        info = meta.get(inst)
+        if not info or not info.get("listTime"):
+            continue
+        listed = pd.to_datetime(int(info["listTime"]), unit="ms", utc=True)
+        if (now - listed).days < C.MIN_LISTING_DAYS:
+            continue
+        candidates.append((inst, quote_vol))
+
+    candidates.sort(key=lambda x: -x[1])
+    scored = []
+    for inst, _ in candidates[:40]:
+        try:
+            daily = okx.daily_candles(inst, 40)
+        except Exception:
+            continue
+        if len(daily) < 20:
+            continue
+        atr_pct = _atr_pct_day(daily)
+        if not (1.0 < atr_pct < C.MAX_ATR_PCT_DAY):
+            continue
+        scored.append((inst, atr_pct))
+        time.sleep(0.1)
+
+    scored.sort(key=lambda x: -x[1])
+    return core + [s[0] for s in scored[:slots]]
+
+
 def screen_universe(slots: int = C.ROTATING_SLOTS) -> list[str]:
     """Core symbols plus the most volatile *tradeable* liquid alts.
 
@@ -259,6 +342,9 @@ def screen_universe(slots: int = C.ROTATING_SLOTS) -> list[str]:
     every volatility ranking and is completely unusable — no history to reason
     from, spreads that eat the edge, and funding rates that can run -2% per 8h.
     """
+    if venue() == "okx":
+        return _screen_okx(slots)
+
     info = exchange_info()
     meta = {
         s["symbol"]: s

@@ -32,6 +32,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # OKX pages history 100 candles at a time, so a cold start costs ~14
+      # requests per symbol. Keeping the cache warm turns each tick into a
+      # couple of calls for the newest bars.
+      - name: Restore market-data cache
+        uses: actions/cache@v4
+        with:
+          path: cache
+          key: market-cache-${{ github.run_id }}
+          restore-keys: |
+            market-cache-
+
       - name: Run one paper-trading tick
         run: python run.py once
 
