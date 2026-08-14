@@ -2,7 +2,7 @@
 
 An autonomous paper-trading bot for crypto perpetual futures. It runs itself on
 a schedule, trades a screened universe of Binance USDⓈ-M perps on hourly bars,
-and keeps four independent $100 ledgers side by side at different risk levels so
+and keeps five independent $100 ledgers side by side at different risk levels so
 you can see what leverage actually does to the same set of trades.
 
 It was built to answer one question honestly: **can a trading bot double $100 in
@@ -26,16 +26,17 @@ is not the answer anyone wants.
   up after the bar closed.
 - Publishes a **self-contained HTML dashboard** you can open from anywhere.
 
-### The four books
+### The five books
 
 | Book | Sizing | Typical leverage |
 |---|---|---|
 | A — Conservative | 2% of equity risked per trade | ~3–8x |
 | B — Aggressive | 8% risked per trade | ~10–25x |
+| E — Optimal | 12% risked per trade — the measured peak | ~12–30x |
 | C — Degen | 20% risked per trade | ~15–40x |
 | D — Max Leverage | fixed 100x notional, stop forced inside liquidation | 100x |
 
-All four see identical signals. Only the position sizing differs, which is what
+All five see identical signals. Only the position sizing differs, which is what
 makes the comparison worth anything.
 
 ---
