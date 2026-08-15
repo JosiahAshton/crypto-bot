@@ -10,7 +10,7 @@
     "HYPE-USDT-SWAP"
   ],
   "last_screen": "2026-08-14 13:20:25+00:00",
-  "last_bar": "2026-08-14 22:00:00+00:00",
+  "last_bar": "2026-08-15 00:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -20,7 +20,7 @@
         "cash": 70.52,
         "positions": {},
         "peak_equity": 70.52,
-        "day_key": "2026-08-14",
+        "day_key": "2026-08-15",
         "day_start_equity": 70.52,
         "halted_until": null,
         "dead": false,
@@ -36,7 +36,7 @@
         "cash": 70.52,
         "positions": {},
         "peak_equity": 70.52,
-        "day_key": "2026-08-14",
+        "day_key": "2026-08-15",
         "day_start_equity": 70.52,
         "halted_until": null,
         "dead": false,
@@ -52,7 +52,7 @@
         "cash": 70.52,
         "positions": {},
         "peak_equity": 70.52,
-        "day_key": "2026-08-14",
+        "day_key": "2026-08-15",
         "day_start_equity": 70.52,
         "halted_until": null,
         "dead": false,
@@ -68,7 +68,7 @@
         "cash": 70.52,
         "positions": {},
         "peak_equity": 70.52,
-        "day_key": "2026-08-14",
+        "day_key": "2026-08-15",
         "day_start_equity": 70.52,
         "halted_until": null,
         "dead": false,
@@ -84,7 +84,7 @@
         "cash": 70.52,
         "positions": {},
         "peak_equity": 70.52,
-        "day_key": "2026-08-14",
+        "day_key": "2026-08-15",
         "day_start_equity": 70.52,
         "halted_until": null,
         "dead": false,
@@ -104,14 +104,14 @@
     },
     "cooldown": {}
   },
-  "ticks": 18,
-  "updated_at": "2026-08-14 23:52:12+00:00",
+  "ticks": 19,
+  "updated_at": "2026-08-15 01:19:35+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 62999.1,
-    "SOL-USDT-SWAP": 75.31,
-    "EDEN-USDT-SWAP": 0.05858,
-    "ZEC-USDT-SWAP": 493.06,
-    "HYPE-USDT-SWAP": 56.481
+    "BTC-USDT-SWAP": 62979.4,
+    "SOL-USDT-SWAP": 75.36,
+    "EDEN-USDT-SWAP": 0.05879,
+    "ZEC-USDT-SWAP": 492.0,
+    "HYPE-USDT-SWAP": 56.294
   },
   "summary": [
     {
