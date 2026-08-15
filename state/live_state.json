@@ -104,14 +104,14 @@
     },
     "cooldown": {}
   },
-  "ticks": 47,
-  "updated_at": "2026-08-15 16:37:52+00:00",
+  "ticks": 48,
+  "updated_at": "2026-08-15 16:59:22+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 63065.2,
-    "SOL-USDT-SWAP": 75.41,
-    "EDEN-USDT-SWAP": 0.04617,
-    "ZEC-USDT-SWAP": 490.91,
-    "HYPE-USDT-SWAP": 56.72
+    "BTC-USDT-SWAP": 63066.2,
+    "SOL-USDT-SWAP": 75.43,
+    "EDEN-USDT-SWAP": 0.04563,
+    "ZEC-USDT-SWAP": 491.16,
+    "HYPE-USDT-SWAP": 57.19
   },
   "summary": [
     {
