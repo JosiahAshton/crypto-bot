@@ -96,8 +96,8 @@ def cmd_daemon(args):
 
 def cmd_report(args):
     from bot import report
-    path = report.build()
-    print(f"-> {path}")
+    print(f"-> {report.build()}")
+    print(f"-> {report.build_status_md()}")
 
 
 def main(argv=None):

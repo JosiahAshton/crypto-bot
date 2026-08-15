@@ -1,5 +1,11 @@
 # Crypto perp paper bot — five books, one signal engine
 
+### 👉 [**Live scoreboard — PnL and trade history**](STATUS.md)
+
+Updated every 10 minutes by the bot itself. Renders on a phone.
+
+---
+
 An autonomous paper-trading bot for crypto perpetual futures. It runs itself on
 a schedule, trades a screened universe of Binance USDⓈ-M perps on hourly bars,
 and keeps five independent $100 ledgers side by side at different risk levels so

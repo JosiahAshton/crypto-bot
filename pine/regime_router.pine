@@ -1,19 +1,27 @@
 //@version=6
-// Regime Router — TradingView twin of the Python paper bot.
+// Regime Router -- TradingView twin of the Python paper bot.
 //
-// This is the *signal* half of the system, so you can see on a chart what the
-// bot is reacting to and cross-check it against TradingView's own backtester.
-// It deliberately does NOT reproduce the four books, funding payments, the
-// maintenance-margin liquidation model or the cron execution delay — Pine has
-// no way to express those, and pretending otherwise would make this look more
-// profitable than the engine that actually trades.
+// Load this five times on five saved chart layouts, one per risk setting
+// (2%, 8%, 12%, 20%, and 100x fixed). Each starts at $100 and TradingView's
+// Strategy Tester will carry its own equity curve forward on its own as bars
+// close, so the five can be compared hands-off.
 //
-// Read it as: "here is where the bot would have fired, and why."
+// WHAT THIS IS NOT:
+//   * Single symbol. The real bot runs a five-symbol portfolio, so these
+//     numbers will not match its ledger -- treat them as one market's slice.
+//   * No funding payments. The engine charges funding every 8 hours, which at
+//     high leverage is roughly 3% of the account per day. Pine cannot, so the
+//     leveraged charts here will look kinder than reality.
+//   * No liquidation event. The stop is forced inside the liquidation band the
+//     same way the engine does it, so the stop fires first -- but a gap through
+//     it would cost the whole margin live, and here it will not.
+//
+// Read the leveraged charts as an optimistic bound, not a forecast.
 
-strategy("Regime Router — BTC/SOL perps", overlay = true,
+strategy("Regime Router -- $100 book", overlay = true,
      initial_capital           = 100,
-     default_qty_type          = strategy.percent_of_equity,
-     default_qty_value         = 100,
+     default_qty_type          = strategy.fixed,
+     default_qty_value         = 1,
      commission_type           = strategy.commission.percent,
      commission_value          = 0.05,
      slippage                  = 2,
@@ -21,40 +29,46 @@ strategy("Regime Router — BTC/SOL perps", overlay = true,
      calc_on_every_tick        = false,
      process_orders_on_close   = false)
 
-// ── inputs ────────────────────────────────────────────────────────────────
+// -- sizing ----------------------------------------------------------------
+grpS = "Book sizing"
+useFixedLev = input.bool(false, "Fixed leverage instead of % risk", group = grpS)
+riskPct  = input.float(2.0,  "Risk per trade (%)", minval = 0.1, maxval = 90,
+     step = 0.5, group = grpS,
+     tooltip = "Books: 2 = Conservative, 8 = Aggressive, 12 = Optimal, 20 = Degen")
+fixedLev = input.float(100,  "Fixed leverage (x)", minval = 1, group = grpS)
+maxLev   = input.float(25,   "Exchange max leverage (x)", minval = 1, group = grpS,
+     tooltip = "BTC 125, ETH 100, SOL 75, most alts 25 or less")
+mmrPct   = input.float(2.5,  "Maintenance margin (%)", minval = 0.1, group = grpS)
+
 grpR = "Regime"
-atrLen   = input.int(14,   "ATR length",                group = grpR)
-erLen    = input.int(20,   "Efficiency ratio length",   group = grpR)
-erTrend  = input.float(0.38, "Trend threshold", step = 0.02, group = grpR)
-erChop   = input.float(0.22, "Chop threshold",  step = 0.02, group = grpR)
-bwLen    = input.int(20,   "Bandwidth length",          group = grpR)
-bwLook   = input.int(300,  "Bandwidth lookback",        group = grpR)
-bwMax    = input.float(35, "Compressed percentile",     group = grpR)
+atrLen   = input.int(14,   "ATR length",               group = grpR)
+erLen    = input.int(20,   "Efficiency ratio length",  group = grpR)
+erTrend  = input.float(0.46, "Trend threshold", step = 0.02, group = grpR)
+erChop   = input.float(0.40, "Chop threshold",  step = 0.02, group = grpR)
+bwLen    = input.int(20,   "Bandwidth length",         group = grpR)
+bwLook   = input.int(300,  "Bandwidth lookback",       group = grpR)
+bwMax    = input.float(35, "Compressed percentile",    group = grpR)
 
 grpB = "Breakout module"
-useBreak = input.bool(true, "Enabled",                  group = grpB)
-dcLen    = input.int(48,   "Donchian length",           group = grpB)
-emaLen   = input.int(200,  "Trend EMA",                 group = grpB)
-stopATR  = input.float(2.0, "Initial stop (ATR)",  step = 0.25, group = grpB)
-trailATR = input.float(3.0, "Chandelier trail (ATR)", step = 0.25, group = grpB)
+useBreak = input.bool(true, "Enabled",                 group = grpB)
+dcLen    = input.int(120,  "Donchian length",          group = grpB)
+stopATR  = input.float(4.0, "Stop (ATR)", step = 0.25, group = grpB)
 chaseMax = input.float(1.0, "Max chase beyond level (ATR)", step = 0.25, group = grpB)
-maxBarsB = input.int(96,   "Time stop (bars)",          group = grpB)
+maxBarsB = input.int(240,  "Time stop (bars)",         group = grpB)
 
 grpM = "Mean-reversion module"
-useMR    = input.bool(true, "Enabled",                  group = grpM)
-zLen     = input.int(48,   "VWAP / z length",           group = grpM)
-zEntry   = input.float(3.0, "Entry |z|",       step = 0.1, group = grpM)
-mrStop   = input.float(2.0, "Stop (ATR)",      step = 0.25, group = grpM)
-mrTarget = input.float(2.0, "Target (R)",      step = 0.25, group = grpM)
-maxBarsM = input.int(24,   "Time stop (bars)",          group = grpM)
+useMR    = input.bool(true, "Enabled",                 group = grpM)
+zLen     = input.int(48,   "VWAP / z length",          group = grpM)
+zEntry   = input.float(3.0, "Entry |z|",    step = 0.1,  group = grpM)
+mrStop   = input.float(2.0, "Stop (ATR)",   step = 0.25, group = grpM)
+mrTarget = input.float(2.0, "Target (R)",   step = 0.25, group = grpM)
+maxBarsM = input.int(24,   "Time stop (bars)",         group = grpM)
 
-// ── features ──────────────────────────────────────────────────────────────
+// -- features --------------------------------------------------------------
 atr    = ta.atr(atrLen)
 gross  = math.sum(math.abs(close - close[1]), erLen)
 er     = gross == 0 ? 0.0 : math.abs(close - close[erLen]) / gross
-ema    = ta.ema(close, emaLen)
 
-// Shifted by one bar so a "breakout" clears a level that already existed.
 dcH    = ta.highest(high, dcLen)[1]
 dcL    = ta.lowest(low,  dcLen)[1]
 
@@ -71,55 +85,67 @@ sdev    = ta.stdev(spread, zLen)
 z       = sdev == 0 ? 0.0 : spread / sdev
 
 volExp  = atr > ta.median(atr, 50)
-
 isTrend = er >= erTrend
 isChop  = er <= erChop and bwPct <= bwMax
 
-// ── entries ───────────────────────────────────────────────────────────────
-breakLong  = useBreak and isTrend and volExp and close > dcH and close > ema
+// -- entries ---------------------------------------------------------------
+breakLong  = useBreak and isTrend and volExp and close > dcH
              and (close - dcH) / atr <= chaseMax
-breakShort = useBreak and isTrend and volExp and close < dcL and close < ema
+breakShort = useBreak and isTrend and volExp and close < dcL
              and (dcL - close) / atr <= chaseMax
+mrLong     = useMR and isChop and z <= -zEntry
+mrShort    = useMR and isChop and z >=  zEntry
 
-mrLong  = useMR and isChop and z <= -zEntry
-mrShort = useMR and isChop and z >=  zEntry
+// Risk distance, then size. Fixed leverage nails the notional and squeezes the
+// stop inside liquidation; percent-risk solves the notional from the stop.
+riskDist(bool isBreakout) =>
+    (isBreakout ? stopATR : mrStop) * atr
 
-flat = strategy.position_size == 0
+sizeFor(float dist) =>
+    eq = math.max(strategy.equity, 1.0)
+    float q = 0.0
+    float d = dist
+    if useFixedLev
+        lev    = math.min(fixedLev, maxLev)
+        liqPct = 1.0 / lev - mmrPct / 100.0
+        if liqPct > 0
+            stopPct = math.min(d / close, 0.60 * liqPct)
+            d := stopPct * close
+            q := eq * lev / close
+    else
+        q := (eq * riskPct / 100.0) / d
+        q := math.min(q, eq * maxLev / close)   // cannot exceed exchange leverage
+    [q, d]
 
 var float stopPx   = na
 var float targetPx = na
 var int   entryBar = na
 var bool  isBreak  = false
 
+flat = strategy.position_size == 0
+
 if flat and (breakLong or mrLong) and barstate.isconfirmed
-    isBreak  := breakLong
-    risk     = (breakLong ? stopATR : mrStop) * atr
-    stopPx   := close - risk
-    targetPx := breakLong ? na : close + mrTarget * risk
-    entryBar := bar_index
-    strategy.entry("long", strategy.long,
-         comment = breakLong ? "break" : "revert")
+    isBreak := breakLong
+    [q, d] = sizeFor(riskDist(breakLong))
+    if q > 0
+        stopPx   := close - d
+        targetPx := breakLong ? na : close + mrTarget * d
+        entryBar := bar_index
+        strategy.entry("long", strategy.long, qty = q,
+             comment = breakLong ? "break" : "revert")
 
 if flat and (breakShort or mrShort) and barstate.isconfirmed
-    isBreak  := breakShort
-    risk     = (breakShort ? stopATR : mrStop) * atr
-    stopPx   := close + risk
-    targetPx := breakShort ? na : close - mrTarget * risk
-    entryBar := bar_index
-    strategy.entry("short", strategy.short,
-         comment = breakShort ? "break" : "revert")
+    isBreak := breakShort
+    [q, d] = sizeFor(riskDist(breakShort))
+    if q > 0
+        stopPx   := close + d
+        targetPx := breakShort ? na : close - mrTarget * d
+        entryBar := bar_index
+        strategy.entry("short", strategy.short, qty = q,
+             comment = breakShort ? "break" : "revert")
 
-// ── exits ─────────────────────────────────────────────────────────────────
-// Chandelier trail ratchets toward price and never away from it.
-if strategy.position_size > 0 and isBreak
-    stopPx := math.max(nz(stopPx, close - trailATR * atr),
-                       ta.highest(high, math.max(bar_index - entryBar, 1))
-                       - trailATR * atr)
-if strategy.position_size < 0 and isBreak
-    stopPx := math.min(nz(stopPx, close + trailATR * atr),
-                       ta.lowest(low, math.max(bar_index - entryBar, 1))
-                       + trailATR * atr)
-
+// -- exits -----------------------------------------------------------------
+// No trailing stop: every top configuration in the research turned it off.
 held    = bar_index - nz(entryBar, bar_index)
 expired = held >= (isBreak ? maxBarsB : maxBarsM)
 
@@ -133,10 +159,9 @@ if strategy.position_size < 0
     if expired
         strategy.close("short", comment = "time")
 
-// ── chart ─────────────────────────────────────────────────────────────────
+// -- chart -----------------------------------------------------------------
 plot(dcH,   "Donchian high", color.new(color.teal, 40))
 plot(dcL,   "Donchian low",  color.new(color.teal, 40))
-plot(ema,   "Trend EMA",     color.new(color.orange, 20), linewidth = 2)
 plot(rvwap, "Rolling VWAP",  color.new(color.purple, 20))
 plot(strategy.position_size != 0 ? stopPx : na, "Stop",
      color.new(color.red, 0), style = plot.style_linebr, linewidth = 2)

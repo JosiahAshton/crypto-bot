@@ -161,6 +161,79 @@ def _trades(path: str) -> str:
     return f"<table>{head}{''.join(rows)}</table>"
 
 
+def build_status_md(out_path: str = "STATUS.md") -> str:
+    """A plain-markdown scoreboard GitHub renders on its own.
+
+    The HTML dashboard is richer, but GitHub serves .html as source text, so on
+    a phone it is unreadable. This file is the one that answers "how are they
+    going" in one glance, straight from the repo front page.
+    """
+    state = load_state()
+    if not state:
+        raise RuntimeError("no live state yet - run `python run.py once` first")
+
+    fx = state.get("aud_usd", C.FALLBACK_AUD_USD)
+    start_usd = state["start_usd"]
+    lines = [
+        "# Live scoreboard",
+        "",
+        f"**Updated:** {str(state.get('updated_at', ''))[:19]} UTC &middot; "
+        f"tick #{state.get('ticks', 0)} &middot; "
+        f"started {str(state.get('created_at', ''))[:10]} "
+        f"at A${C.START_EQUITY_AUD:.2f} (US${start_usd:.2f})",
+        "",
+        f"**Trading:** {', '.join(state.get('universe', []))}",
+        "",
+        "| Book | USD | AUD | Return | Trades | Win% | Open | Liq | Fees | Funding |",
+        "|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|",
+    ]
+
+    for row in state.get("summary", []):
+        name = row["book"] + (" **DEAD**" if row["dead"] else "")
+        lines.append(
+            f"| {name} | ${row['equity']:.2f} | A${row['equity'] / fx:.2f} "
+            f"| {row['return_pct']:+.1f}% | {row['trades']} "
+            f"| {row['win_rate']:.0f}% | {row['open']} | {row['liquidations']} "
+            f"| ${row['fees']:.2f} | ${row['funding']:.2f} |"
+        )
+
+    lines += ["", "## Recent closed trades", ""]
+    if not os.path.exists(C.TRADE_LOG):
+        lines.append("_No trades yet._")
+    else:
+        df = pd.read_csv(C.TRADE_LOG)
+        closed = df[(df["pnl"].astype(str).str.len() > 0)
+                    & (~df["reason"].astype(str).str.startswith("OPEN"))]
+        if closed.empty:
+            lines.append("_No closed trades yet._")
+        else:
+            lines += [
+                "| Time | Book | Symbol | Side | Module | Lev | PnL $ | Exit |",
+                "|---|---|---|---|---|---:|---:|---|",
+            ]
+            for _, r in closed.tail(25).iloc[::-1].iterrows():
+                lines.append(
+                    f"| {str(r['time'])[:16]} | {r['book']} | {r['symbol']} "
+                    f"| {r['side']} | {r['module']} | {r['leverage']}x "
+                    f"| {float(r['pnl']):+.3f} | {r['reason']} |"
+                )
+
+    lines += [
+        "",
+        "---",
+        "",
+        "Full trade log: [`state/trades.csv`](state/trades.csv) &middot; "
+        "equity history: [`state/equity.csv`](state/equity.csv)",
+        "",
+        "_Paper trading only. No exchange keys, no orders, no money._",
+        "",
+    ]
+
+    with open(out_path, "w", encoding="utf-8") as fh:
+        fh.write("\n".join(lines))
+    return out_path
+
+
 def build(out_path: str = "reports/index.html") -> str:
     state = load_state()
     if not state:
