@@ -1,6 +1,6 @@
 # Live scoreboard
 
-**Updated:** 2026-08-17 13:47:42 UTC &middot; tick #126 &middot; started 2026-08-14 at A$100.00 (US$70.52)
+**Updated:** 2026-08-17 14:13:46 UTC &middot; tick #127 &middot; started 2026-08-14 at A$100.00 (US$70.52)
 
 **Trading:** BTC-USDT-SWAP, SOL-USDT-SWAP, EDEN-USDT-SWAP, ZEC-USDT-SWAP, HYPE-USDT-SWAP
 
