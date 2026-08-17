@@ -10,7 +10,7 @@
     "HYPE-USDT-SWAP"
   ],
   "last_screen": "2026-08-14 13:20:25+00:00",
-  "last_bar": "2026-08-16 22:00:00+00:00",
+  "last_bar": "2026-08-16 23:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -104,14 +104,14 @@
     },
     "cooldown": {}
   },
-  "ticks": 109,
-  "updated_at": "2026-08-16 23:45:39+00:00",
+  "ticks": 110,
+  "updated_at": "2026-08-17 00:00:20+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 62864.5,
+    "BTC-USDT-SWAP": 62878.7,
     "SOL-USDT-SWAP": 74.53,
-    "EDEN-USDT-SWAP": 0.04422,
-    "ZEC-USDT-SWAP": 486.41,
-    "HYPE-USDT-SWAP": 57.095
+    "EDEN-USDT-SWAP": 0.04434,
+    "ZEC-USDT-SWAP": 486.46,
+    "HYPE-USDT-SWAP": 57.133
   },
   "summary": [
     {
