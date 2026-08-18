@@ -10,7 +10,7 @@
     "HYPE-USDT-SWAP"
   ],
   "last_screen": "2026-08-14 13:20:25+00:00",
-  "last_bar": "2026-08-18 03:00:00+00:00",
+  "last_bar": "2026-08-18 04:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -33,7 +33,7 @@
             "trail_atr": null,
             "liq_price": 62201.862215798996,
             "opened_at": "2026-08-17 18:17:14+00:00",
-            "bars_held": 10,
+            "bars_held": 11,
             "max_bars": 240,
             "extreme": 64358.77729462422,
             "fees_paid": 0.04778761605641992,
@@ -70,7 +70,7 @@
             "trail_atr": null,
             "liq_price": 62202.04039110963,
             "opened_at": "2026-08-17 18:17:14+00:00",
-            "bars_held": 10,
+            "bars_held": 11,
             "max_bars": 240,
             "extreme": 64358.96164835139,
             "fees_paid": 0.1911504642256797,
@@ -107,7 +107,7 @@
             "trail_atr": null,
             "liq_price": 62202.396741730896,
             "opened_at": "2026-08-17 18:17:14+00:00",
-            "bars_held": 10,
+            "bars_held": 11,
             "max_bars": 240,
             "extreme": 64359.33035580573,
             "fees_paid": 0.4778761605641993,
@@ -144,7 +144,7 @@
             "trail_atr": null,
             "liq_price": 62202.159174650056,
             "opened_at": "2026-08-17 18:17:14+00:00",
-            "bars_held": 10,
+            "bars_held": 11,
             "max_bars": 240,
             "extreme": 64359.084550836174,
             "fees_paid": 0.2867256963385195,
@@ -187,23 +187,23 @@
       "D_max_leverage": []
     },
     "cooldown": {
-      "D_max_leverage|BTC-USDT-SWAP": 3
+      "D_max_leverage|BTC-USDT-SWAP": 2
     }
   },
-  "ticks": 150,
-  "updated_at": "2026-08-18 04:57:33+00:00",
+  "ticks": 151,
+  "updated_at": "2026-08-18 05:36:27+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 64181.2,
-    "SOL-USDT-SWAP": 75.78,
-    "EDEN-USDT-SWAP": 0.04843,
-    "ZEC-USDT-SWAP": 510.39,
-    "HYPE-USDT-SWAP": 59.276
+    "BTC-USDT-SWAP": 64162.2,
+    "SOL-USDT-SWAP": 75.61,
+    "EDEN-USDT-SWAP": 0.05101,
+    "ZEC-USDT-SWAP": 507.92,
+    "HYPE-USDT-SWAP": 58.983
   },
   "summary": [
     {
       "book": "Conservative 2%",
-      "equity": 70.21,
-      "return_pct": -0.4,
+      "equity": 70.18,
+      "return_pct": -0.5,
       "peak": 70.68,
       "max_dd_pct": 0.7,
       "trades": 0,
@@ -216,10 +216,10 @@
     },
     {
       "book": "Aggressive 8%",
-      "equity": 69.28,
-      "return_pct": -1.8,
+      "equity": 69.17,
+      "return_pct": -1.9,
       "peak": 71.17,
-      "max_dd_pct": 2.7,
+      "max_dd_pct": 2.8,
       "trades": 0,
       "win_rate": 0.0,
       "liquidations": 0,
@@ -230,10 +230,10 @@
     },
     {
       "book": "Degen 20%",
-      "equity": 67.41,
-      "return_pct": -4.4,
+      "equity": 67.13,
+      "return_pct": -4.8,
       "peak": 72.13,
-      "max_dd_pct": 6.5,
+      "max_dd_pct": 6.9,
       "trades": 0,
       "win_rate": 0.0,
       "liquidations": 0,
@@ -244,10 +244,10 @@
     },
     {
       "book": "Optimal 12%",
-      "equity": 68.66,
-      "return_pct": -2.6,
+      "equity": 68.49,
+      "return_pct": -2.9,
       "peak": 71.49,
-      "max_dd_pct": 4.0,
+      "max_dd_pct": 4.2,
       "trades": 0,
       "win_rate": 0.0,
       "liquidations": 0,
