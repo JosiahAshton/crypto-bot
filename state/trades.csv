@@ -4,3 +4,4 @@ time,book,symbol,module,side,entry,exit,qty,notional,leverage,margin,pnl,fees,fu
 2026-08-17 18:17:14+00:00,C_degen,BTC-USDT-SWAP,breakout,long,64359.330356,,0.014850252727065269,955.75,26.7,35.854,,0.4779,0.0,0,OPEN donchian break er=0.53 ext=0.41atr,34.1881
 2026-08-17 18:17:14+00:00,E_optimal,BTC-USDT-SWAP,breakout,long,64359.084551,,0.00891018566654843,573.45,26.7,21.5124,,0.2867,0.0,0,OPEN donchian break er=0.53 ext=0.41atr,48.7209
 2026-08-17 18:17:14+00:00,D_max_leverage,BTC-USDT-SWAP,breakout,long,64362.837814,,0.09960575556666115,6410.91,100.0,64.1091,,3.2055,0.0,0,OPEN donchian break er=0.53 ext=0.41atr,3.2055
+2026-08-18 01:00:00+00:00,D_max_leverage,BTC-USDT-SWAP,breakout,long,64362.837814,64123.813653,0.09960575556666115,6410.91,100.0,64.1091,-27.0017,6.399,-0.1102,8,stop,40.4231
