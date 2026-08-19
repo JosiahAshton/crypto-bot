@@ -188,14 +188,14 @@
     },
     "cooldown": {}
   },
-  "ticks": 195,
-  "updated_at": "2026-08-19 10:02:52+00:00",
+  "ticks": 196,
+  "updated_at": "2026-08-19 10:43:36+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 64376.3,
-    "SOL-USDT-SWAP": 77.21,
-    "EDEN-USDT-SWAP": 0.05484,
-    "ZEC-USDT-SWAP": 506.66,
-    "HYPE-USDT-SWAP": 58.163
+    "BTC-USDT-SWAP": 64376.4,
+    "SOL-USDT-SWAP": 77.29,
+    "EDEN-USDT-SWAP": 0.05361,
+    "ZEC-USDT-SWAP": 505.8,
+    "HYPE-USDT-SWAP": 58.322
   },
   "summary": [
     {
@@ -228,7 +228,7 @@
     },
     {
       "book": "Degen 20%",
-      "equity": 70.09,
+      "equity": 70.1,
       "return_pct": -0.6,
       "peak": 76.97,
       "max_dd_pct": 8.9,
