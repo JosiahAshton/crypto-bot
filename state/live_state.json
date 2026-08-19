@@ -10,7 +10,7 @@
     "HYPE-USDT-SWAP"
   ],
   "last_screen": "2026-08-14 13:20:25+00:00",
-  "last_bar": "2026-08-19 04:00:00+00:00",
+  "last_bar": "2026-08-19 05:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -33,7 +33,7 @@
             "trail_atr": null,
             "liq_price": 62201.862215798996,
             "opened_at": "2026-08-17 18:17:14+00:00",
-            "bars_held": 35,
+            "bars_held": 36,
             "max_bars": 240,
             "extreme": 64358.77729462422,
             "fees_paid": 0.04778761605641992,
@@ -70,7 +70,7 @@
             "trail_atr": null,
             "liq_price": 62202.04039110963,
             "opened_at": "2026-08-17 18:17:14+00:00",
-            "bars_held": 35,
+            "bars_held": 36,
             "max_bars": 240,
             "extreme": 64358.96164835139,
             "fees_paid": 0.1911504642256797,
@@ -107,7 +107,7 @@
             "trail_atr": null,
             "liq_price": 62202.396741730896,
             "opened_at": "2026-08-17 18:17:14+00:00",
-            "bars_held": 35,
+            "bars_held": 36,
             "max_bars": 240,
             "extreme": 64359.33035580573,
             "fees_paid": 0.4778761605641993,
@@ -144,7 +144,7 @@
             "trail_atr": null,
             "liq_price": 62202.159174650056,
             "opened_at": "2026-08-17 18:17:14+00:00",
-            "bars_held": 35,
+            "bars_held": 36,
             "max_bars": 240,
             "extreme": 64359.084550836174,
             "fees_paid": 0.2867256963385195,
@@ -188,14 +188,14 @@
     },
     "cooldown": {}
   },
-  "ticks": 189,
-  "updated_at": "2026-08-19 05:51:05+00:00",
+  "ticks": 190,
+  "updated_at": "2026-08-19 06:46:54+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 64253.0,
-    "SOL-USDT-SWAP": 76.77,
-    "EDEN-USDT-SWAP": 0.05141,
-    "ZEC-USDT-SWAP": 502.12,
-    "HYPE-USDT-SWAP": 58.318
+    "BTC-USDT-SWAP": 64250.1,
+    "SOL-USDT-SWAP": 76.95,
+    "EDEN-USDT-SWAP": 0.05126,
+    "ZEC-USDT-SWAP": 503.92,
+    "HYPE-USDT-SWAP": 58.485
   },
   "summary": [
     {
@@ -214,7 +214,7 @@
     },
     {
       "book": "Aggressive 8%",
-      "equity": 69.66,
+      "equity": 69.64,
       "return_pct": -1.2,
       "peak": 73.1,
       "max_dd_pct": 4.7,
@@ -228,7 +228,7 @@
     },
     {
       "book": "Degen 20%",
-      "equity": 68.35,
+      "equity": 68.31,
       "return_pct": -3.1,
       "peak": 76.97,
       "max_dd_pct": 11.2,
@@ -242,10 +242,10 @@
     },
     {
       "book": "Optimal 12%",
-      "equity": 69.22,
-      "return_pct": -1.8,
+      "equity": 69.2,
+      "return_pct": -1.9,
       "peak": 74.39,
-      "max_dd_pct": 6.9,
+      "max_dd_pct": 7.0,
       "trades": 0,
       "win_rate": 0.0,
       "liquidations": 0,
