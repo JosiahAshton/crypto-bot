@@ -28,3 +28,4 @@ time,book,symbol,module,side,entry,exit,qty,notional,leverage,margin,pnl,fees,fu
 2026-08-19 21:00:00+00:00,D_max_leverage,SOL-USDT-SWAP,breakout,long,83.919925,83.690215,20.139774748303335,1690.13,75.0,22.535,-5.4691,1.6878,0.0,1,stop,17.911
 2026-08-20 09:17:48+00:00,D_max_leverage,SOL-USDT-SWAP,breakout,long,87.756669,,14.239464933476862,1249.61,75.0,16.6614,,0.6248,0.0,0,OPEN donchian break er=0.62 ext=0.18atr,0.6248
 2026-08-20 09:00:00+00:00,D_max_leverage,SOL-USDT-SWAP,breakout,long,87.756669,87.490157,14.239464933476862,1249.61,75.0,16.6614,-4.4179,1.2477,0.0,1,stop,12.8683
+2026-08-21 01:50:22+00:00,D_max_leverage,BTC-USDT-SWAP,breakout,long,73838.074906,,0.015843441668976648,1169.85,100.0,11.6985,,0.5849,0.0,0,OPEN donchian break er=0.69 ext=0.40atr,0.5849
