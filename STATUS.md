@@ -1,16 +1,16 @@
 # Live scoreboard
 
-**Updated:** 2026-08-23 07:46:03 UTC &middot; tick #342 &middot; started 2026-08-14 at A$100.00 (US$70.52)
+**Updated:** 2026-08-23 08:12:41 UTC &middot; tick #343 &middot; started 2026-08-14 at A$100.00 (US$70.52)
 
 **Trading:** BTC-USDT-SWAP, SOL-USDT-SWAP, BOME-USDT-SWAP, PUMP-USDT-SWAP, PEOPLE-USDT-SWAP
 
 | Book | USD | AUD | Return | Trades | Win% | Open | Liq | Fees | Funding |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Conservative 2% | $107.88 | A$152.98 | +53.0% | 1 | 0% | 3 | 0 | $0.19 | $0.21 |
-| Aggressive 8% | $235.42 | A$333.84 | +233.8% | 1 | 0% | 3 | 0 | $0.77 | $0.91 |
-| Degen 20% | $307.14 | A$435.55 | +335.5% | 1 | 0% | 2 | 0 | $1.17 | $1.42 |
-| Optimal 12% | $274.25 | A$388.91 | +288.9% | 1 | 0% | 3 | 0 | $1.07 | $1.07 |
-| Max Leverage 100x | $46.71 | A$66.24 | -33.8% | 5 | 0% | 1 | 0 | $12.68 | $0.67 |
+| Conservative 2% | $109.26 | A$154.94 | +54.9% | 1 | 0% | 3 | 0 | $0.19 | $0.21 |
+| Aggressive 8% | $241.67 | A$342.71 | +242.7% | 1 | 0% | 3 | 0 | $0.77 | $0.91 |
+| Degen 20% | $313.87 | A$445.09 | +345.1% | 1 | 0% | 2 | 0 | $1.17 | $1.42 |
+| Optimal 12% | $281.37 | A$399.00 | +299.0% | 1 | 0% | 3 | 0 | $1.07 | $1.07 |
+| Max Leverage 100x | $50.27 | A$71.29 | -28.7% | 5 | 0% | 1 | 0 | $12.68 | $0.67 |
 
 ## Recent closed trades
 
