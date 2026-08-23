@@ -349,16 +349,16 @@
     },
     "cooldown": {}
   },
-  "ticks": 357,
-  "updated_at": "2026-08-23 15:30:10+00:00",
+  "ticks": 358,
+  "updated_at": "2026-08-23 15:52:24+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 77205.6,
-    "SOL-USDT-SWAP": 95.45,
-    "BOME-USDT-SWAP": 0.0012016,
-    "PUMP-USDT-SWAP": 0.005266,
-    "PEOPLE-USDT-SWAP": 0.010525,
-    "HYPE-USDT-SWAP": 79.529,
-    "ZEC-USDT-SWAP": 844.52
+    "BTC-USDT-SWAP": 77187.4,
+    "SOL-USDT-SWAP": 95.57,
+    "BOME-USDT-SWAP": 0.0012074,
+    "PUMP-USDT-SWAP": 0.005227,
+    "PEOPLE-USDT-SWAP": 0.010561,
+    "HYPE-USDT-SWAP": 79.754,
+    "ZEC-USDT-SWAP": 842.75
   },
   "summary": [
     {
@@ -377,7 +377,7 @@
     },
     {
       "book": "Aggressive 8%",
-      "equity": 256.33,
+      "equity": 256.34,
       "return_pct": 263.5,
       "peak": 268.43,
       "max_dd_pct": 4.5,
@@ -391,10 +391,10 @@
     },
     {
       "book": "Degen 20%",
-      "equity": 337.6,
-      "return_pct": 378.7,
+      "equity": 336.8,
+      "return_pct": 377.6,
       "peak": 353.5,
-      "max_dd_pct": 4.5,
+      "max_dd_pct": 4.7,
       "trades": 1,
       "win_rate": 0.0,
       "liquidations": 0,
@@ -405,10 +405,10 @@
     },
     {
       "book": "Optimal 12%",
-      "equity": 303.8,
-      "return_pct": 330.8,
+      "equity": 303.0,
+      "return_pct": 329.7,
       "peak": 312.72,
-      "max_dd_pct": 2.9,
+      "max_dd_pct": 3.1,
       "trades": 1,
       "win_rate": 0.0,
       "liquidations": 0,
@@ -419,10 +419,10 @@
     },
     {
       "book": "Max Leverage 100x",
-      "equity": 64.8,
-      "return_pct": -8.1,
+      "equity": 64.51,
+      "return_pct": -8.5,
       "peak": 98.33,
-      "max_dd_pct": 34.1,
+      "max_dd_pct": 34.4,
       "trades": 5,
       "win_rate": 0.0,
       "liquidations": 0,
