@@ -5,19 +5,19 @@
   "universe": [
     "BTC-USDT-SWAP",
     "SOL-USDT-SWAP",
-    "BOME-USDT-SWAP",
     "PUMP-USDT-SWAP",
-    "PEOPLE-USDT-SWAP"
+    "TRUMP-USDT-SWAP",
+    "ENA-USDT-SWAP"
   ],
-  "last_screen": "2026-08-21 13:58:00+00:00",
-  "last_bar": "2026-08-28 04:00:00+00:00",
+  "last_screen": "2026-08-28 17:29:04+00:00",
+  "last_bar": "2026-08-28 16:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
       "A_conservative": {
         "name": "A_conservative",
         "label": "Conservative 2%",
-        "cash": 83.08254174895094,
+        "cash": 83.06685549444231,
         "positions": {
           "ZEC-USDT-SWAP": {
             "symbol": "ZEC-USDT-SWAP",
@@ -33,11 +33,11 @@
             "trail_atr": null,
             "liq_price": 481.95923878344763,
             "opened_at": "2026-08-19 16:01:48+00:00",
-            "bars_held": 205,
+            "bars_held": 217,
             "max_bars": 240,
             "extreme": 552.5021157882103,
             "fees_paid": 0.014650370796943554,
-            "funding_paid": 0.10292952020009231
+            "funding_paid": 0.11133458472569512
           },
           "HYPE-USDT-SWAP": {
             "symbol": "HYPE-USDT-SWAP",
@@ -53,11 +53,11 @@
             "trail_atr": null,
             "liq_price": 55.02903769685806,
             "opened_at": "2026-08-19 17:12:25+00:00",
-            "bars_held": 204,
+            "bars_held": 216,
             "max_bars": 240,
             "extreme": 62.15004440808453,
             "fees_paid": 0.01667265413906053,
-            "funding_paid": 0.10281912629918263
+            "funding_paid": 0.11010031628222135
           }
         },
         "peak_equity": 119.175153476487,
@@ -69,12 +69,12 @@
         "n_wins": 1,
         "n_liquidations": 0,
         "fees_total": 0.24626343404856385,
-        "funding_total": 0.4444193419428334
+        "funding_total": 0.4601055964514749
       },
       "B_aggressive": {
         "name": "B_aggressive",
         "label": "Aggressive 8%",
-        "cash": 114.13578671901293,
+        "cash": 114.06192472575918,
         "positions": {
           "ZEC-USDT-SWAP": {
             "symbol": "ZEC-USDT-SWAP",
@@ -90,11 +90,11 @@
             "trail_atr": null,
             "liq_price": 481.9597661142858,
             "opened_at": "2026-08-19 16:01:48+00:00",
-            "bars_held": 205,
+            "bars_held": 217,
             "max_bars": 240,
             "extreme": 552.5027203028255,
             "fees_paid": 0.06954934960247845,
-            "funding_paid": 0.4886342776876921
+            "funding_paid": 0.5285353927944415
           },
           "HYPE-USDT-SWAP": {
             "symbol": "HYPE-USDT-SWAP",
@@ -110,11 +110,11 @@
             "trail_atr": null,
             "liq_price": 55.02910472569162,
             "opened_at": "2026-08-19 17:12:25+00:00",
-            "bars_held": 204,
+            "bars_held": 216,
             "max_bars": 240,
             "extreme": 62.15012011075273,
             "fees_paid": 0.07776457785220157,
-            "funding_paid": 0.4795682886397051
+            "funding_paid": 0.5135291667866944
           }
         },
         "peak_equity": 284.04249891080707,
@@ -126,12 +126,12 @@
         "n_wins": 1,
         "n_liquidations": 0,
         "fees_total": 1.008978960612125,
-        "funding_total": 1.9228826134501609
+        "funding_total": 1.9967446067038996
       },
       "C_degen": {
         "name": "C_degen",
         "label": "Degen 20%",
-        "cash": 271.18182646505676,
+        "cash": 271.13455983776555,
         "positions": {
           "ZEC-USDT-SWAP": {
             "symbol": "ZEC-USDT-SWAP",
@@ -147,11 +147,11 @@
             "trail_atr": null,
             "liq_price": 483.7564190254529,
             "opened_at": "2026-08-19 16:01:48+00:00",
-            "bars_held": 205,
+            "bars_held": 217,
             "max_bars": 240,
             "extreme": 552.5028616718446,
             "fees_paid": 0.08238777333297477,
-            "funding_paid": 0.57883330386642
+            "funding_paid": 0.6260999311576716
           }
         },
         "peak_equity": 391.2604343627947,
@@ -163,12 +163,12 @@
         "n_wins": 1,
         "n_liquidations": 0,
         "fees_total": 1.7631348175790387,
-        "funding_total": 2.9655197485334788
+        "funding_total": 3.01278637582473
       },
       "E_optimal": {
         "name": "E_optimal",
         "label": "Optimal 12%",
-        "cash": 162.6960587941514,
+        "cash": 162.62379456969913,
         "positions": {
           "ZEC-USDT-SWAP": {
             "symbol": "ZEC-USDT-SWAP",
@@ -184,11 +184,11 @@
             "trail_atr": null,
             "liq_price": 483.7660663618749,
             "opened_at": "2026-08-19 16:01:48+00:00",
-            "bars_held": 205,
+            "bars_held": 217,
             "max_bars": 240,
             "extreme": 552.5032234382912,
             "fees_paid": 0.11524158362551978,
-            "funding_paid": 0.8096543967248871
+            "funding_paid": 0.8757695154457513
           },
           "HYPE-USDT-SWAP": {
             "symbol": "HYPE-USDT-SWAP",
@@ -204,11 +204,11 @@
             "trail_atr": null,
             "liq_price": 55.218964552938886,
             "opened_at": "2026-08-19 17:12:25+00:00",
-            "bars_held": 204,
+            "bars_held": 216,
             "max_bars": 240,
             "extreme": 62.15004119583973,
             "fees_paid": 0.014080378078935295,
-            "funding_paid": 0.08683274029376398
+            "funding_paid": 0.09298184602519229
           }
         },
         "peak_equity": 338.26743480473374,
@@ -220,7 +220,7 @@
         "n_wins": 1,
         "n_liquidations": 0,
         "fees_total": 1.4237145844672823,
-        "funding_total": 2.3285044730643816
+        "funding_total": 2.400768697516674
       },
       "D_max_leverage": {
         "name": "D_max_leverage",
@@ -235,17 +235,17 @@
             "entry_price": 73838.07490562243,
             "notional": 1169.8492327167573,
             "leverage": 100.0,
-            "margin": 10.268236991980782,
+            "margin": 10.019119430813625,
             "stop": 73572.25783596218,
             "target": null,
             "trail_atr": null,
-            "liq_price": 73485.32073907935,
+            "liq_price": 73501.04444143974,
             "opened_at": "2026-08-21 01:50:22+00:00",
-            "bars_held": 172,
+            "bars_held": 184,
             "max_bars": 240,
             "extreme": 73838.07490562243,
             "fees_paid": 0.5849246163583787,
-            "funding_paid": 2.015179951545171
+            "funding_paid": 2.2642975127123277
           }
         },
         "peak_equity": 119.68123950853311,
@@ -257,7 +257,7 @@
         "n_wins": 0,
         "n_liquidations": 0,
         "fees_total": 12.684221554313533,
-        "funding_total": 1.972212209856488
+        "funding_total": 2.221329771023645
       }
     },
     "pending": {
@@ -269,85 +269,85 @@
     },
     "cooldown": {}
   },
-  "ticks": 463,
-  "updated_at": "2026-08-28 05:15:48+00:00",
+  "ticks": 464,
+  "updated_at": "2026-08-28 17:29:04+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 79632.4,
-    "SOL-USDT-SWAP": 106.92,
-    "BOME-USDT-SWAP": 0.0010018,
-    "PUMP-USDT-SWAP": 0.004666,
-    "PEOPLE-USDT-SWAP": 0.007993,
-    "HYPE-USDT-SWAP": 82.963,
-    "ZEC-USDT-SWAP": 786.54
+    "BTC-USDT-SWAP": 77966.4,
+    "SOL-USDT-SWAP": 104.63,
+    "PUMP-USDT-SWAP": 0.004664,
+    "TRUMP-USDT-SWAP": 2.672,
+    "ENA-USDT-SWAP": 0.16505,
+    "HYPE-USDT-SWAP": 81.606,
+    "ZEC-USDT-SWAP": 795.59
   },
   "summary": [
     {
       "book": "Conservative 2%",
-      "equity": 115.79,
-      "return_pct": 64.2,
+      "equity": 115.53,
+      "return_pct": 63.8,
       "peak": 119.18,
-      "max_dd_pct": 2.8,
+      "max_dd_pct": 3.1,
       "trades": 2,
       "win_rate": 50.0,
       "liquidations": 0,
       "fees": 0.25,
-      "funding": 0.44,
+      "funding": 0.46,
       "open": 2,
       "dead": false
     },
     {
       "book": "Aggressive 8%",
-      "equity": 268.09,
-      "return_pct": 280.2,
+      "equity": 266.9,
+      "return_pct": 278.5,
       "peak": 284.04,
-      "max_dd_pct": 5.6,
+      "max_dd_pct": 6.0,
       "trades": 2,
       "win_rate": 50.0,
       "liquidations": 0,
       "fees": 1.01,
-      "funding": 1.92,
+      "funding": 2.0,
       "open": 2,
       "dead": false
     },
     {
       "book": "Degen 20%",
-      "equity": 365.6,
-      "return_pct": 418.4,
+      "equity": 368.25,
+      "return_pct": 422.2,
       "peak": 391.26,
-      "max_dd_pct": 6.6,
+      "max_dd_pct": 5.9,
       "trades": 2,
       "win_rate": 50.0,
       "liquidations": 0,
       "fees": 1.76,
-      "funding": 2.97,
+      "funding": 3.01,
       "open": 1,
       "dead": false
     },
     {
       "book": "Optimal 12%",
-      "equity": 308.04,
-      "return_pct": 336.8,
+      "equity": 311.13,
+      "return_pct": 341.2,
       "peak": 338.27,
-      "max_dd_pct": 8.9,
+      "max_dd_pct": 8.0,
       "trades": 2,
       "win_rate": 50.0,
       "liquidations": 0,
       "fees": 1.42,
-      "funding": 2.33,
+      "funding": 2.4,
       "open": 2,
       "dead": false
     },
     {
       "book": "Max Leverage 100x",
-      "equity": 102.07,
-      "return_pct": 44.7,
+      "equity": 75.43,
+      "return_pct": 7.0,
       "peak": 119.68,
-      "max_dd_pct": 14.7,
+      "max_dd_pct": 37.0,
       "trades": 5,
       "win_rate": 0.0,
       "liquidations": 0,
       "fees": 12.68,
-      "funding": 1.97,
+      "funding": 2.22,
       "open": 1,
       "dead": false
     }
