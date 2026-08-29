@@ -10,7 +10,7 @@
     "ENA-USDT-SWAP"
   ],
   "last_screen": "2026-08-28 17:29:04+00:00",
-  "last_bar": "2026-08-29 16:00:00+00:00",
+  "last_bar": "2026-08-29 18:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -97,7 +97,7 @@
             "trail_atr": null,
             "liq_price": 73517.49430399525,
             "opened_at": "2026-08-21 01:50:22+00:00",
-            "bars_held": 208,
+            "bars_held": 210,
             "max_bars": 240,
             "extreme": 73838.07490562243,
             "fees_paid": 0.5849246163583787,
@@ -124,25 +124,23 @@
       "D_max_leverage": []
     },
     "cooldown": {
-      "A_conservative|ZEC-USDT-SWAP": 4,
-      "B_aggressive|ZEC-USDT-SWAP": 4,
-      "C_degen|ZEC-USDT-SWAP": 4,
-      "E_optimal|ZEC-USDT-SWAP": 4,
-      "A_conservative|HYPE-USDT-SWAP": 5,
-      "B_aggressive|HYPE-USDT-SWAP": 5,
-      "E_optimal|HYPE-USDT-SWAP": 5
+      "A_conservative|ZEC-USDT-SWAP": 2,
+      "B_aggressive|ZEC-USDT-SWAP": 2,
+      "C_degen|ZEC-USDT-SWAP": 2,
+      "E_optimal|ZEC-USDT-SWAP": 2,
+      "A_conservative|HYPE-USDT-SWAP": 3,
+      "B_aggressive|HYPE-USDT-SWAP": 3,
+      "E_optimal|HYPE-USDT-SWAP": 3
     }
   },
-  "ticks": 468,
-  "updated_at": "2026-08-29 17:24:33+00:00",
+  "ticks": 469,
+  "updated_at": "2026-08-29 19:55:23+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 77981.7,
-    "SOL-USDT-SWAP": 104.68,
-    "PUMP-USDT-SWAP": 0.004804,
-    "TRUMP-USDT-SWAP": 2.643,
-    "ENA-USDT-SWAP": 0.15707,
-    "HYPE-USDT-SWAP": 82.846,
-    "ZEC-USDT-SWAP": 833.4
+    "BTC-USDT-SWAP": 78162.8,
+    "SOL-USDT-SWAP": 105.26,
+    "PUMP-USDT-SWAP": 0.004841,
+    "TRUMP-USDT-SWAP": 2.665,
+    "ENA-USDT-SWAP": 0.15596
   },
   "summary": [
     {
@@ -203,10 +201,10 @@
     },
     {
       "book": "Max Leverage 100x",
-      "equity": 75.41,
-      "return_pct": 6.9,
+      "equity": 78.28,
+      "return_pct": 11.0,
       "peak": 119.68,
-      "max_dd_pct": 37.0,
+      "max_dd_pct": 34.6,
       "trades": 5,
       "win_rate": 0.0,
       "liquidations": 0,
