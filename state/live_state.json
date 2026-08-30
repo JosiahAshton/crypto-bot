@@ -10,7 +10,7 @@
     "ENA-USDT-SWAP"
   ],
   "last_screen": "2026-08-28 17:29:04+00:00",
-  "last_bar": "2026-08-29 23:00:00+00:00",
+  "last_bar": "2026-08-30 04:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -20,8 +20,8 @@
         "cash": 118.23918809624966,
         "positions": {},
         "peak_equity": 119.175153476487,
-        "day_key": "2026-08-29",
-        "day_start_equity": 114.95226877805077,
+        "day_key": "2026-08-30",
+        "day_start_equity": 118.23918809624966,
         "halted_until": null,
         "dead": false,
         "n_trades": 4,
@@ -36,8 +36,8 @@
         "cash": 279.72254724271085,
         "positions": {},
         "peak_equity": 284.04249891080707,
-        "day_key": "2026-08-29",
-        "day_start_equity": 264.24137991612855,
+        "day_key": "2026-08-30",
+        "day_start_equity": 279.72254724271085,
         "halted_until": null,
         "dead": false,
         "n_trades": 4,
@@ -52,8 +52,8 @@
         "cash": 379.6377231325724,
         "positions": {},
         "peak_equity": 391.2604343627947,
-        "day_key": "2026-08-29",
-        "day_start_equity": 369.4285999628703,
+        "day_key": "2026-08-30",
+        "day_start_equity": 379.6377231325724,
         "halted_until": null,
         "dead": false,
         "n_trades": 3,
@@ -68,8 +68,8 @@
         "cash": 327.6331819345646,
         "positions": {},
         "peak_equity": 338.26743480473374,
-        "day_key": "2026-08-29",
-        "day_start_equity": 312.1105311720943,
+        "day_key": "2026-08-30",
+        "day_start_equity": 327.6331819345646,
         "halted_until": null,
         "dead": false,
         "n_trades": 4,
@@ -91,29 +91,29 @@
             "entry_price": 73838.07490562243,
             "notional": 1169.8492327167573,
             "leverage": 100.0,
-            "margin": 9.758496992952713,
+            "margin": 9.720695592581816,
             "stop": 73572.25783596218,
             "target": null,
             "trail_atr": null,
-            "liq_price": 73517.49430399525,
+            "liq_price": 73519.88023763016,
             "opened_at": "2026-08-21 01:50:22+00:00",
-            "bars_held": 215,
+            "bars_held": 220,
             "max_bars": 240,
             "extreme": 73838.07490562243,
             "fees_paid": 0.5849246163583787,
-            "funding_paid": 2.5249199505732407
+            "funding_paid": 2.562721350944139
           }
         },
         "peak_equity": 119.68123950853311,
-        "day_key": "2026-08-29",
-        "day_start_equity": 71.1260871851969,
+        "day_key": "2026-08-30",
+        "day_start_equity": 77.89361547169412,
         "halted_until": null,
         "dead": false,
         "n_trades": 5,
         "n_wins": 0,
         "n_liquidations": 0,
         "fees_total": 12.684221554313533,
-        "funding_total": 2.481952208884558
+        "funding_total": 2.519753609255456
       }
     },
     "pending": {
@@ -125,14 +125,14 @@
     },
     "cooldown": {}
   },
-  "ticks": 471,
-  "updated_at": "2026-08-30 00:36:40+00:00",
+  "ticks": 472,
+  "updated_at": "2026-08-30 05:48:38+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 78236.9,
-    "SOL-USDT-SWAP": 105.37,
-    "PUMP-USDT-SWAP": 0.005051,
-    "TRUMP-USDT-SWAP": 2.672,
-    "ENA-USDT-SWAP": 0.16041
+    "BTC-USDT-SWAP": 78098.9,
+    "SOL-USDT-SWAP": 104.92,
+    "PUMP-USDT-SWAP": 0.004924,
+    "TRUMP-USDT-SWAP": 2.598,
+    "ENA-USDT-SWAP": 0.15857
   },
   "summary": [
     {
@@ -193,15 +193,15 @@
     },
     {
       "book": "Max Leverage 100x",
-      "equity": 79.45,
-      "return_pct": 12.7,
+      "equity": 77.23,
+      "return_pct": 9.5,
       "peak": 119.68,
-      "max_dd_pct": 33.6,
+      "max_dd_pct": 35.5,
       "trades": 5,
       "win_rate": 0.0,
       "liquidations": 0,
       "fees": 12.68,
-      "funding": 2.48,
+      "funding": 2.52,
       "open": 1,
       "dead": false
     }
