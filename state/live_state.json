@@ -10,7 +10,7 @@
     "ENA-USDT-SWAP"
   ],
   "last_screen": "2026-08-28 17:29:04+00:00",
-  "last_bar": "2026-08-30 09:00:00+00:00",
+  "last_bar": "2026-08-30 14:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -97,7 +97,7 @@
             "trail_atr": null,
             "liq_price": 73524.89776515328,
             "opened_at": "2026-08-21 01:50:22+00:00",
-            "bars_held": 225,
+            "bars_held": 230,
             "max_bars": 240,
             "extreme": 73838.07490562243,
             "fees_paid": 0.5849246163583787,
@@ -125,14 +125,14 @@
     },
     "cooldown": {}
   },
-  "ticks": 473,
-  "updated_at": "2026-08-30 10:44:35+00:00",
+  "ticks": 474,
+  "updated_at": "2026-08-30 15:04:04+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 78084.1,
-    "SOL-USDT-SWAP": 104.96,
-    "PUMP-USDT-SWAP": 0.004824,
-    "TRUMP-USDT-SWAP": 2.522,
-    "ENA-USDT-SWAP": 0.15827
+    "BTC-USDT-SWAP": 78696.7,
+    "SOL-USDT-SWAP": 106.57,
+    "PUMP-USDT-SWAP": 0.004841,
+    "TRUMP-USDT-SWAP": 2.528,
+    "ENA-USDT-SWAP": 0.1592
   },
   "summary": [
     {
@@ -193,10 +193,10 @@
     },
     {
       "book": "Max Leverage 100x",
-      "equity": 76.91,
-      "return_pct": 9.1,
+      "equity": 86.62,
+      "return_pct": 22.8,
       "peak": 119.68,
-      "max_dd_pct": 35.7,
+      "max_dd_pct": 27.6,
       "trades": 5,
       "win_rate": 0.0,
       "liquidations": 0,
