@@ -10,7 +10,7 @@
     "ENA-USDT-SWAP"
   ],
   "last_screen": "2026-08-28 17:29:04+00:00",
-  "last_bar": "2026-08-30 22:00:00+00:00",
+  "last_bar": "2026-08-31 00:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -20,7 +20,7 @@
         "cash": 118.23918809624966,
         "positions": {},
         "peak_equity": 119.175153476487,
-        "day_key": "2026-08-30",
+        "day_key": "2026-08-31",
         "day_start_equity": 118.23918809624966,
         "halted_until": null,
         "dead": false,
@@ -36,7 +36,7 @@
         "cash": 279.72254724271085,
         "positions": {},
         "peak_equity": 284.04249891080707,
-        "day_key": "2026-08-30",
+        "day_key": "2026-08-31",
         "day_start_equity": 279.72254724271085,
         "halted_until": null,
         "dead": false,
@@ -52,7 +52,7 @@
         "cash": 379.6377231325724,
         "positions": {},
         "peak_equity": 391.2604343627947,
-        "day_key": "2026-08-30",
+        "day_key": "2026-08-31",
         "day_start_equity": 379.6377231325724,
         "halted_until": null,
         "dead": false,
@@ -68,7 +68,7 @@
         "cash": 327.6331819345646,
         "positions": {},
         "peak_equity": 338.26743480473374,
-        "day_key": "2026-08-30",
+        "day_key": "2026-08-31",
         "day_start_equity": 327.6331819345646,
         "halted_until": null,
         "dead": false,
@@ -81,39 +81,18 @@
       "D_max_leverage": {
         "name": "D_max_leverage",
         "label": "Max Leverage 100x",
-        "cash": 0.0,
-        "positions": {
-          "BTC-USDT-SWAP": {
-            "symbol": "BTC-USDT-SWAP",
-            "side": 1,
-            "module": "breakout",
-            "qty": 0.015843441668976648,
-            "entry_price": 73838.07490562243,
-            "notional": 1169.8492327167573,
-            "leverage": 100.0,
-            "margin": 9.597361659337086,
-            "stop": 73572.25783596218,
-            "target": null,
-            "trail_atr": null,
-            "liq_price": 73527.66477938704,
-            "opened_at": "2026-08-21 01:50:22+00:00",
-            "bars_held": 238,
-            "max_bars": 240,
-            "extreme": 73838.07490562243,
-            "fees_paid": 0.5849246163583787,
-            "funding_paid": 2.686055284188869
-          }
-        },
+        "cash": 73.20298139805479,
+        "positions": {},
         "peak_equity": 119.68123950853311,
-        "day_key": "2026-08-30",
-        "day_start_equity": 77.89361547169412,
+        "day_key": "2026-08-31",
+        "day_start_equity": 73.97600011836404,
         "halted_until": null,
         "dead": false,
-        "n_trades": 5,
-        "n_wins": 0,
+        "n_trades": 6,
+        "n_wins": 1,
         "n_liquidations": 0,
-        "fees_total": 12.684221554313533,
-        "funding_total": 2.643087542500186
+        "fees_total": 13.301297414902006,
+        "funding_total": 2.7228804033812395
       }
     },
     "pending": {
@@ -123,16 +102,18 @@
       "E_optimal": [],
       "D_max_leverage": []
     },
-    "cooldown": {}
+    "cooldown": {
+      "D_max_leverage|BTC-USDT-SWAP": 5
+    }
   },
-  "ticks": 476,
-  "updated_at": "2026-08-30 23:50:00+00:00",
+  "ticks": 477,
+  "updated_at": "2026-08-31 01:55:45+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 77359.3,
-    "SOL-USDT-SWAP": 100.92,
-    "PUMP-USDT-SWAP": 0.00439,
-    "TRUMP-USDT-SWAP": 2.314,
-    "ENA-USDT-SWAP": 0.14645
+    "BTC-USDT-SWAP": 77703.2,
+    "SOL-USDT-SWAP": 101.55,
+    "PUMP-USDT-SWAP": 0.004399,
+    "TRUMP-USDT-SWAP": 2.323,
+    "ENA-USDT-SWAP": 0.14677
   },
   "summary": [
     {
@@ -193,16 +174,16 @@
     },
     {
       "book": "Max Leverage 100x",
-      "equity": 65.39,
-      "return_pct": -7.3,
+      "equity": 73.2,
+      "return_pct": 3.8,
       "peak": 119.68,
-      "max_dd_pct": 45.4,
-      "trades": 5,
-      "win_rate": 0.0,
+      "max_dd_pct": 38.8,
+      "trades": 6,
+      "win_rate": 16.7,
       "liquidations": 0,
-      "fees": 12.68,
-      "funding": 2.64,
-      "open": 1,
+      "fees": 13.3,
+      "funding": 2.72,
+      "open": 0,
       "dead": false
     }
   ]
