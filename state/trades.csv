@@ -53,3 +53,5 @@ time,book,symbol,module,side,entry,exit,qty,notional,leverage,margin,pnl,fees,fu
 2026-09-01 19:00:00+00:00,E_optimal,SOL-USDT-SWAP,breakout,short,99.27531,,8.856507211027417,879.23,9.4,93.8172,,0.4396,0.0,0,OPEN donchian break er=0.50 ext=0.60atr,136.8716
 2026-09-01 19:00:00+00:00,D_max_leverage,SOL-USDT-SWAP,breakout,short,99.272381,,38.490054697773346,3821.0,75.0,50.9467,,1.9105,0.0,0,OPEN donchian break er=0.50 ext=0.60atr,1.9105
 2026-09-01 19:00:00+00:00,D_max_leverage,SOL-USDT-SWAP,breakout,short,99.272381,99.563759,38.490054697773346,3821.0,75.0,50.9467,-13.1312,3.8266,0.0,1,stop,39.7259
+2026-09-02 09:00:00+00:00,D_max_leverage,SOL-USDT-SWAP,meanrev,long,98.952742,,28.00908047140628,2771.58,75.0,36.9543,,0.5543,0.0,0,OPEN z=-3.25 bw=33pct rr=2.00,2.2173
+2026-09-02 09:00:00+00:00,D_max_leverage,SOL-USDT-SWAP,meanrev,long,98.952742,98.742224,28.00908047140628,2771.58,75.0,36.9543,-7.2793,1.9372,0.0,1,stop,31.8923
