@@ -1,21 +1,22 @@
 # Live scoreboard
 
-**Updated:** 2026-09-02 21:16:41 UTC &middot; tick #493 &middot; started 2026-08-14 at A$100.00 (US$70.52)
+**Updated:** 2026-09-02 23:22:48 UTC &middot; tick #494 &middot; started 2026-08-14 at A$100.00 (US$70.52)
 
 **Trading:** BTC-USDT-SWAP, SOL-USDT-SWAP, PUMP-USDT-SWAP, TRUMP-USDT-SWAP, ENA-USDT-SWAP
 
 | Book | USD | AUD | Return | Trades | Win% | Open | Liq | Fees | Funding |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Conservative 2% | $117.76 | A$166.99 | +67.0% | 4 | 75% | 3 | 0 | $0.34 | $0.47 |
-| Aggressive 8% | $275.02 | A$390.00 | +290.0% | 4 | 75% | 3 | 0 | $1.69 | $2.07 |
-| Degen 20% | $398.28 | A$564.79 | +464.8% | 3 | 67% | 3 | 0 | $3.08 | $2.98 |
-| Optimal 12% | $319.12 | A$452.54 | +352.5% | 4 | 75% | 3 | 0 | $2.44 | $2.52 |
-| Max Leverage 100x | $22.07 | A$31.30 | -68.7% | 10 | 10% | 1 | 0 | $21.52 | $2.75 |
+| Conservative 2% | $118.36 | A$167.84 | +67.8% | 4 | 75% | 3 | 0 | $0.34 | $0.47 |
+| Aggressive 8% | $280.77 | A$398.15 | +298.1% | 4 | 75% | 3 | 0 | $1.69 | $2.07 |
+| Degen 20% | $399.29 | A$566.22 | +466.2% | 3 | 67% | 3 | 0 | $3.08 | $2.98 |
+| Optimal 12% | $329.40 | A$467.11 | +367.1% | 4 | 75% | 3 | 0 | $2.44 | $2.52 |
+| Max Leverage 100x | $18.20 | A$25.81 | -74.2% | 11 | 9% | 0 | 0 | $21.81 | $2.75 |
 
 ## Recent closed trades
 
 | Time | Book | Symbol | Side | Module | Lev | PnL $ | Exit |
 |---|---|---|---|---|---:|---:|---|
+| 2026-09-02 22:00 | D_max_leverage | TRUMP-USDT-SWAP | long | meanrev | 25.0x | -5.763 | stop |
 | 2026-09-02 14:00 | D_max_leverage | TRUMP-USDT-SWAP | long | meanrev | 25.0x | -7.623 | stop |
 | 2026-09-02 09:00 | D_max_leverage | SOL-USDT-SWAP | long | meanrev | 75.0x | -7.279 | stop |
 | 2026-09-01 19:00 | D_max_leverage | SOL-USDT-SWAP | short | breakout | 75.0x | -13.131 | stop |
@@ -40,7 +41,6 @@
 | 2026-08-19 12:00 | C_degen | SOL-USDT-SWAP | short | meanrev | 26.0x | -8.493 | stop |
 | 2026-08-19 12:00 | B_aggressive | SOL-USDT-SWAP | short | meanrev | 26.0x | -6.050 | stop |
 | 2026-08-19 12:00 | A_conservative | SOL-USDT-SWAP | short | meanrev | 26.0x | -1.505 | stop |
-| 2026-08-18 01:00 | D_max_leverage | BTC-USDT-SWAP | long | breakout | 100.0x | -27.002 | stop |
 
 ---
 
