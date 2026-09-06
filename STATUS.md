@@ -1,21 +1,22 @@
 # Live scoreboard
 
-**Updated:** 2026-09-06 00:57:14 UTC &middot; tick #518 &middot; started 2026-08-14 at A$100.00 (US$70.52)
+**Updated:** 2026-09-06 05:44:56 UTC &middot; tick #519 &middot; started 2026-08-14 at A$100.00 (US$70.52)
 
 **Trading:** BTC-USDT-SWAP, SOL-USDT-SWAP, PUMP-USDT-SWAP, TRUMP-USDT-SWAP, ENA-USDT-SWAP
 
 | Book | USD | AUD | Return | Trades | Win% | Open | Liq | Fees | Funding |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Conservative 2% | $117.32 | A$166.37 | +66.4% | 8 | 50% | 1 | 0 | $0.51 | $0.48 |
-| Aggressive 8% | $270.90 | A$384.16 | +284.1% | 8 | 50% | 1 | 0 | $3.33 | $2.16 |
-| Degen 20% | $369.72 | A$524.29 | +424.3% | 5 | 60% | 1 | 0 | $4.01 | $2.55 |
-| Optimal 12% | $311.71 | A$442.03 | +342.0% | 8 | 50% | 1 | 0 | $5.36 | $2.69 |
-| Max Leverage 100x | $7.86 | A$11.15 | -88.9% | 13 | 8% | 0 | 0 | $23.49 | $2.75 |
+| Conservative 2% | $115.51 | A$163.80 | +63.8% | 8 | 50% | 2 | 0 | $0.52 | $0.48 |
+| Aggressive 8% | $254.35 | A$360.69 | +260.7% | 8 | 50% | 2 | 0 | $3.44 | $2.16 |
+| Degen 20% | $326.33 | A$462.76 | +362.7% | 5 | 60% | 2 | 0 | $4.29 | $2.53 |
+| Optimal 12% | $283.28 | A$401.71 | +301.7% | 8 | 50% | 2 | 0 | $5.56 | $2.68 |
+| Max Leverage 100x | $5.88 | A$8.34 | -91.7% | 14 | 7% | 0 | 0 | $23.68 | $2.75 |
 
 ## Recent closed trades
 
 | Time | Book | Symbol | Side | Module | Lev | PnL $ | Exit |
 |---|---|---|---|---|---:|---:|---|
+| 2026-09-06 02:00 | D_max_leverage | ENA-USDT-SWAP | long | breakout | 25.0x | -1.877 | stop |
 | 2026-09-04 12:00 | E_optimal | BTC-USDT-SWAP | long | breakout | 15.4x | -42.162 | stop |
 | 2026-09-04 12:00 | E_optimal | ENA-USDT-SWAP | long | breakout | 4.4x | -42.545 | stop |
 | 2026-09-04 12:00 | B_aggressive | BTC-USDT-SWAP | long | breakout | 15.4x | -23.541 | stop |
@@ -40,7 +41,6 @@
 | 2026-08-31 00:00 | D_max_leverage | BTC-USDT-SWAP | long | breakout | 100.0x | +63.685 | time stop |
 | 2026-08-29 16:00 | E_optimal | HYPE-USDT-SWAP | long | breakout | 7.2x | +9.399 | time stop |
 | 2026-08-29 16:00 | B_aggressive | HYPE-USDT-SWAP | long | breakout | 7.2x | +51.910 | time stop |
-| 2026-08-29 16:00 | A_conservative | HYPE-USDT-SWAP | long | breakout | 7.2x | +11.130 | time stop |
 
 ---
 
