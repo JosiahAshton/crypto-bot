@@ -1,21 +1,22 @@
 # Live scoreboard
 
-**Updated:** 2026-09-09 15:07:11 UTC &middot; tick #542 &middot; started 2026-08-14 at A$100.00 (US$70.52)
+**Updated:** 2026-09-09 18:33:53 UTC &middot; tick #543 &middot; started 2026-08-14 at A$100.00 (US$70.52)
 
 **Trading:** BTC-USDT-SWAP, SOL-USDT-SWAP, PUMP-USDT-SWAP, TRUMP-USDT-SWAP, ENA-USDT-SWAP
 
 | Book | USD | AUD | Return | Trades | Win% | Open | Liq | Fees | Funding |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Conservative 2% | $110.86 | A$157.21 | +57.2% | 10 | 40% | 0 | 0 | $0.55 | $0.48 |
-| Aggressive 8% | $210.69 | A$298.77 | +198.8% | 10 | 40% | 0 | 0 | $3.66 | $2.18 |
-| Degen 20% | $187.46 | A$265.83 | +165.8% | 7 | 43% | 0 | 0 | $4.93 | $2.52 |
-| Optimal 12% | $207.04 | A$293.60 | +193.6% | 10 | 40% | 0 | 0 | $5.94 | $2.71 |
-| Max Leverage 100x | $5.88 | A$8.34 | -91.7% | 14 | 7% | 0 | 0 | $23.68 | $2.75 |
+| Conservative 2% | $110.99 | A$157.39 | +57.4% | 10 | 40% | 1 | 0 | $0.56 | $0.47 |
+| Aggressive 8% | $211.65 | A$300.14 | +200.1% | 10 | 40% | 1 | 0 | $3.77 | $2.06 |
+| Degen 20% | $189.60 | A$268.87 | +168.9% | 7 | 43% | 1 | 0 | $5.16 | $2.26 |
+| Optimal 12% | $208.46 | A$295.61 | +195.6% | 10 | 40% | 1 | 0 | $6.09 | $2.54 |
+| Max Leverage 100x **DEAD** | $4.48 | A$6.35 | -93.6% | 15 | 7% | 0 | 0 | $23.78 | $2.72 |
 
 ## Recent closed trades
 
 | Time | Book | Symbol | Side | Module | Lev | PnL $ | Exit |
 |---|---|---|---|---|---:|---:|---|
+| 2026-09-09 16:00 | D_max_leverage | TRUMP-USDT-SWAP | long | meanrev | 25.0x | -1.405 | stop |
 | 2026-09-09 12:00 | E_optimal | PUMP-USDT-SWAP | short | breakout | 3.7x | -39.632 | stop |
 | 2026-09-09 12:00 | C_degen | PUMP-USDT-SWAP | short | breakout | 3.7x | -76.540 | stop |
 | 2026-09-09 12:00 | B_aggressive | PUMP-USDT-SWAP | short | breakout | 3.7x | -22.557 | stop |
@@ -40,7 +41,6 @@
 | 2026-09-03 11:00 | E_optimal | TRUMP-USDT-SWAP | long | meanrev | 7.8x | +81.091 | target |
 | 2026-09-03 11:00 | C_degen | TRUMP-USDT-SWAP | long | meanrev | 7.8x | +9.091 | target |
 | 2026-09-03 11:00 | B_aggressive | TRUMP-USDT-SWAP | long | meanrev | 7.8x | +45.529 | target |
-| 2026-09-03 11:00 | A_conservative | TRUMP-USDT-SWAP | long | meanrev | 7.8x | +4.711 | target |
 
 ---
 
