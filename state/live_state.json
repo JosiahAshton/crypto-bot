@@ -10,7 +10,7 @@
     "ENA-USDT-SWAP"
   ],
   "last_screen": "2026-09-04 17:47:40+00:00",
-  "last_bar": "2026-09-10 04:00:00+00:00",
+  "last_bar": "2026-09-10 10:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -104,14 +104,14 @@
     },
     "cooldown": {}
   },
-  "ticks": 547,
-  "updated_at": "2026-09-10 05:59:34+00:00",
+  "ticks": 548,
+  "updated_at": "2026-09-10 11:08:53+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 78497.8,
-    "SOL-USDT-SWAP": 102.05,
-    "PUMP-USDT-SWAP": 0.004037,
-    "TRUMP-USDT-SWAP": 2.007,
-    "ENA-USDT-SWAP": 0.15157
+    "BTC-USDT-SWAP": 77807.8,
+    "SOL-USDT-SWAP": 100.99,
+    "PUMP-USDT-SWAP": 0.003985,
+    "TRUMP-USDT-SWAP": 1.991,
+    "ENA-USDT-SWAP": 0.14938
   },
   "summary": [
     {
