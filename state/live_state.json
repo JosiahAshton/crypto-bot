@@ -10,7 +10,7 @@
     "ENA-USDT-SWAP"
   ],
   "last_screen": "2026-09-04 17:47:40+00:00",
-  "last_bar": "2026-09-09 22:00:00+00:00",
+  "last_bar": "2026-09-10 00:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -20,8 +20,8 @@
         "cash": 108.59511974037086,
         "positions": {},
         "peak_equity": 121.34683773210548,
-        "day_key": "2026-09-09",
-        "day_start_equity": 112.38574300080396,
+        "day_key": "2026-09-10",
+        "day_start_equity": 108.59511974037086,
         "halted_until": null,
         "dead": false,
         "n_trades": 11,
@@ -36,8 +36,8 @@
         "cash": 193.46996058432197,
         "positions": {},
         "peak_equity": 310.18896556967206,
-        "day_key": "2026-09-09",
-        "day_start_equity": 225.1283475533514,
+        "day_key": "2026-09-10",
+        "day_start_equity": 193.46996058432197,
         "halted_until": null,
         "dead": false,
         "n_trades": 11,
@@ -52,9 +52,9 @@
         "cash": 149.15222655921139,
         "positions": {},
         "peak_equity": 417.57328086074324,
-        "day_key": "2026-09-09",
-        "day_start_equity": 236.45506638181052,
-        "halted_until": "2026-09-10 00:00:00+00:00",
+        "day_key": "2026-09-10",
+        "day_start_equity": 149.15222655921139,
+        "halted_until": null,
         "dead": false,
         "n_trades": 8,
         "n_wins": 3,
@@ -68,8 +68,8 @@
         "cash": 181.65518077291975,
         "positions": {},
         "peak_equity": 382.3911152454468,
-        "day_key": "2026-09-09",
-        "day_start_equity": 232.40711959442007,
+        "day_key": "2026-09-10",
+        "day_start_equity": 181.65518077291975,
         "halted_until": null,
         "dead": false,
         "n_trades": 11,
@@ -103,20 +103,20 @@
       "D_max_leverage": []
     },
     "cooldown": {
-      "A_conservative|TRUMP-USDT-SWAP": 4,
-      "B_aggressive|TRUMP-USDT-SWAP": 4,
-      "C_degen|TRUMP-USDT-SWAP": 4,
-      "E_optimal|TRUMP-USDT-SWAP": 4
+      "A_conservative|TRUMP-USDT-SWAP": 2,
+      "B_aggressive|TRUMP-USDT-SWAP": 2,
+      "C_degen|TRUMP-USDT-SWAP": 2,
+      "E_optimal|TRUMP-USDT-SWAP": 2
     }
   },
-  "ticks": 545,
-  "updated_at": "2026-09-09 23:15:26+00:00",
+  "ticks": 546,
+  "updated_at": "2026-09-10 01:10:14+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 78097.7,
-    "SOL-USDT-SWAP": 101.36,
-    "PUMP-USDT-SWAP": 0.004115,
-    "TRUMP-USDT-SWAP": 2.022,
-    "ENA-USDT-SWAP": 0.15142
+    "BTC-USDT-SWAP": 78382.5,
+    "SOL-USDT-SWAP": 101.44,
+    "PUMP-USDT-SWAP": 0.004073,
+    "TRUMP-USDT-SWAP": 2.028,
+    "ENA-USDT-SWAP": 0.15093
   },
   "summary": [
     {
