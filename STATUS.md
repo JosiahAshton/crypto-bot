@@ -1,21 +1,25 @@
 # Live scoreboard
 
-**Updated:** 2026-09-12 18:40:57 UTC &middot; tick #564 &middot; started 2026-08-14 at A$100.00 (US$70.52)
+**Updated:** 2026-09-12 21:02:25 UTC &middot; tick #565 &middot; started 2026-08-14 at A$100.00 (US$70.52)
 
 **Trading:** BTC-USDT-SWAP, SOL-USDT-SWAP, PUMP-USDT-SWAP, TRUMP-USDT-SWAP, RAY-USDT-SWAP
 
 | Book | USD | AUD | Return | Trades | Win% | Open | Liq | Fees | Funding |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Conservative 2% | $115.35 | A$163.58 | +63.6% | 12 | 42% | 2 | 0 | $0.67 | $0.49 |
-| Aggressive 8% | $243.90 | A$345.87 | +245.9% | 12 | 42% | 2 | 0 | $4.55 | $2.25 |
-| Degen 20% | $228.07 | A$323.42 | +223.4% | 9 | 44% | 2 | 0 | $6.48 | $2.62 |
-| Optimal 12% | $254.84 | A$361.38 | +261.4% | 12 | 42% | 2 | 0 | $7.21 | $2.81 |
+| Conservative 2% | $115.51 | A$163.80 | +63.8% | 13 | 46% | 1 | 0 | $0.69 | $0.50 |
+| Aggressive 8% | $245.16 | A$347.66 | +247.7% | 13 | 46% | 1 | 0 | $4.69 | $2.26 |
+| Degen 20% | $230.68 | A$327.12 | +227.1% | 10 | 50% | 1 | 0 | $6.77 | $2.64 |
+| Optimal 12% | $256.75 | A$364.09 | +264.1% | 13 | 46% | 1 | 0 | $7.43 | $2.82 |
 | Max Leverage 100x **DEAD** | $4.48 | A$6.35 | -93.6% | 15 | 7% | 0 | 0 | $23.78 | $2.72 |
 
 ## Recent closed trades
 
 | Time | Book | Symbol | Side | Module | Lev | PnL $ | Exit |
 |---|---|---|---|---|---:|---:|---|
+| 2026-09-12 18:00 | E_optimal | PUMP-USDT-SWAP | long | meanrev | 5.4x | +39.959 | time stop |
+| 2026-09-12 18:00 | C_degen | PUMP-USDT-SWAP | long | meanrev | 5.4x | +54.647 | time stop |
+| 2026-09-12 18:00 | B_aggressive | PUMP-USDT-SWAP | long | meanrev | 5.4x | +26.720 | time stop |
+| 2026-09-12 18:00 | A_conservative | PUMP-USDT-SWAP | long | meanrev | 5.4x | +3.401 | time stop |
 | 2026-09-11 13:00 | E_optimal | ENA-USDT-SWAP | long | meanrev | 9.1x | +42.893 | target |
 | 2026-09-11 13:00 | C_degen | ENA-USDT-SWAP | long | meanrev | 9.1x | +37.423 | target |
 | 2026-09-11 13:00 | B_aggressive | ENA-USDT-SWAP | long | meanrev | 9.1x | +30.475 | target |
@@ -37,10 +41,6 @@
 | 2026-09-04 12:00 | E_optimal | BTC-USDT-SWAP | long | breakout | 15.4x | -42.162 | stop |
 | 2026-09-04 12:00 | E_optimal | ENA-USDT-SWAP | long | breakout | 4.4x | -42.545 | stop |
 | 2026-09-04 12:00 | B_aggressive | BTC-USDT-SWAP | long | breakout | 15.4x | -23.541 | stop |
-| 2026-09-04 12:00 | B_aggressive | ENA-USDT-SWAP | long | breakout | 4.4x | -23.596 | stop |
-| 2026-09-04 12:00 | A_conservative | BTC-USDT-SWAP | long | breakout | 15.4x | -2.426 | stop |
-| 2026-09-04 12:00 | A_conservative | ENA-USDT-SWAP | long | breakout | 4.4x | -2.409 | stop |
-| 2026-09-03 20:00 | D_max_leverage | BTC-USDT-SWAP | long | breakout | 100.0x | -5.156 | stop |
 
 ---
 
