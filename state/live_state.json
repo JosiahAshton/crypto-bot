@@ -10,14 +10,14 @@
     "RAY-USDT-SWAP"
   ],
   "last_screen": "2026-09-11 18:13:50+00:00",
-  "last_bar": "2026-09-14 04:00:00+00:00",
+  "last_bar": "2026-09-14 09:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
       "A_conservative": {
         "name": "A_conservative",
         "label": "Conservative 2%",
-        "cash": 110.50156198134316,
+        "cash": 110.50287087631791,
         "positions": {
           "TRUMP-USDT-SWAP": {
             "symbol": "TRUMP-USDT-SWAP",
@@ -33,11 +33,11 @@
             "trail_atr": null,
             "liq_price": 2.303830932776943,
             "opened_at": "2026-09-10 13:00:00+00:00",
-            "bars_held": 88,
+            "bars_held": 93,
             "max_bars": 240,
             "extreme": 1.947045266123326,
             "fees_paid": 0.013724964001144502,
-            "funding_paid": 0.016062209971449862
+            "funding_paid": 0.014753314996699563
           }
         },
         "peak_equity": 121.34683773210548,
@@ -49,12 +49,12 @@
         "n_wins": 6,
         "n_liquidations": 0,
         "fees_total": 0.6855970623490367,
-        "funding_total": 0.48823312349611536
+        "funding_total": 0.4869242285213651
       },
       "B_aggressive": {
         "name": "B_aggressive",
         "label": "Aggressive 8%",
-        "cash": 209.4960591666008,
+        "cash": 209.5053867418291,
         "positions": {
           "TRUMP-USDT-SWAP": {
             "symbol": "TRUMP-USDT-SWAP",
@@ -70,11 +70,11 @@
             "trail_atr": null,
             "liq_price": 2.3038270387062263,
             "opened_at": "2026-09-10 13:00:00+00:00",
-            "bars_held": 88,
+            "bars_held": 93,
             "max_bars": 240,
             "extreme": 1.9470419751127546,
             "fees_paid": 0.09780801386548926,
-            "funding_paid": 0.1144640897338528
+            "funding_paid": 0.10513651450551806
           }
         },
         "peak_equity": 310.18896556967206,
@@ -86,12 +86,12 @@
         "n_wins": 6,
         "n_liquidations": 0,
         "fees_total": 4.691125407317273,
-        "funding_total": 2.20694614431886
+        "funding_total": 2.197618569090525
       },
       "C_degen": {
         "name": "C_degen",
         "label": "Degen 20%",
-        "cash": 161.93353713693762,
+        "cash": 161.95151449045173,
         "positions": {
           "TRUMP-USDT-SWAP": {
             "symbol": "TRUMP-USDT-SWAP",
@@ -107,11 +107,11 @@
             "trail_atr": null,
             "liq_price": 2.303822838173356,
             "opened_at": "2026-09-10 13:00:00+00:00",
-            "bars_held": 88,
+            "bars_held": 93,
             "max_bars": 240,
             "extreme": 1.9470384251006747,
             "fees_paid": 0.18850837359081624,
-            "funding_paid": 0.22061053976462275
+            "funding_paid": 0.20263318625049728
           }
         },
         "peak_equity": 417.57328086074324,
@@ -123,12 +123,12 @@
         "n_wins": 5,
         "n_liquidations": 0,
         "fees_total": 6.774019077663861,
-        "funding_total": 2.5405774349484647
+        "funding_total": 2.522600081434339
       },
       "E_optimal": {
         "name": "E_optimal",
         "label": "Optimal 12%",
-        "cash": 206.5139027501347,
+        "cash": 206.52703970214313,
         "positions": {
           "TRUMP-USDT-SWAP": {
             "symbol": "TRUMP-USDT-SWAP",
@@ -144,11 +144,11 @@
             "trail_atr": null,
             "liq_price": 2.303825188782658,
             "opened_at": "2026-09-10 13:00:00+00:00",
-            "bars_held": 88,
+            "bars_held": 93,
             "max_bars": 240,
             "extreme": 1.9470404116799198,
             "fees_paid": 0.1377526442822009,
-            "funding_paid": 0.16121116332079993
+            "funding_paid": 0.14807421131237106
           }
         },
         "peak_equity": 382.3911152454468,
@@ -160,7 +160,7 @@
         "n_wins": 6,
         "n_liquidations": 0,
         "fees_total": 7.42892642371607,
-        "funding_total": 2.7477746365564863
+        "funding_total": 2.7346376845480576
       },
       "D_max_leverage": {
         "name": "D_max_leverage",
@@ -188,20 +188,20 @@
     },
     "cooldown": {}
   },
-  "ticks": 575,
-  "updated_at": "2026-09-14 05:22:26+00:00",
+  "ticks": 576,
+  "updated_at": "2026-09-14 10:53:58+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 77525.0,
-    "SOL-USDT-SWAP": 101.04,
-    "PUMP-USDT-SWAP": 0.003628,
-    "TRUMP-USDT-SWAP": 1.994,
-    "RAY-USDT-SWAP": 1.4186
+    "BTC-USDT-SWAP": 77884.6,
+    "SOL-USDT-SWAP": 101.77,
+    "PUMP-USDT-SWAP": 0.003613,
+    "TRUMP-USDT-SWAP": 1.997,
+    "RAY-USDT-SWAP": 1.3993
   },
   "summary": [
     {
       "book": "Conservative 2%",
-      "equity": 115.56,
-      "return_pct": 63.9,
+      "equity": 115.51,
+      "return_pct": 63.8,
       "peak": 121.35,
       "max_dd_pct": 4.8,
       "trades": 13,
@@ -214,43 +214,43 @@
     },
     {
       "book": "Aggressive 8%",
-      "equity": 245.51,
-      "return_pct": 248.1,
+      "equity": 245.22,
+      "return_pct": 247.7,
       "peak": 310.19,
       "max_dd_pct": 20.9,
       "trades": 13,
       "win_rate": 46.2,
       "liquidations": 0,
       "fees": 4.69,
-      "funding": 2.21,
+      "funding": 2.2,
       "open": 1,
       "dead": false
     },
     {
       "book": "Degen 20%",
-      "equity": 231.35,
-      "return_pct": 228.1,
+      "equity": 230.79,
+      "return_pct": 227.3,
       "peak": 417.57,
-      "max_dd_pct": 44.6,
+      "max_dd_pct": 44.7,
       "trades": 10,
       "win_rate": 50.0,
       "liquidations": 0,
       "fees": 6.77,
-      "funding": 2.54,
+      "funding": 2.52,
       "open": 1,
       "dead": false
     },
     {
       "book": "Optimal 12%",
-      "equity": 257.24,
-      "return_pct": 264.8,
+      "equity": 256.83,
+      "return_pct": 264.2,
       "peak": 382.39,
-      "max_dd_pct": 32.7,
+      "max_dd_pct": 32.8,
       "trades": 13,
       "win_rate": 46.2,
       "liquidations": 0,
       "fees": 7.43,
-      "funding": 2.75,
+      "funding": 2.73,
       "open": 1,
       "dead": false
     },
