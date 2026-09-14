@@ -10,7 +10,7 @@
     "RAY-USDT-SWAP"
   ],
   "last_screen": "2026-09-11 18:13:50+00:00",
-  "last_bar": "2026-09-13 21:00:00+00:00",
+  "last_bar": "2026-09-13 23:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -33,7 +33,7 @@
             "trail_atr": null,
             "liq_price": 2.303830932776943,
             "opened_at": "2026-09-10 13:00:00+00:00",
-            "bars_held": 81,
+            "bars_held": 83,
             "max_bars": 240,
             "extreme": 1.947045266123326,
             "fees_paid": 0.013724964001144502,
@@ -70,7 +70,7 @@
             "trail_atr": null,
             "liq_price": 2.3038270387062263,
             "opened_at": "2026-09-10 13:00:00+00:00",
-            "bars_held": 81,
+            "bars_held": 83,
             "max_bars": 240,
             "extreme": 1.9470419751127546,
             "fees_paid": 0.09780801386548926,
@@ -107,7 +107,7 @@
             "trail_atr": null,
             "liq_price": 2.303822838173356,
             "opened_at": "2026-09-10 13:00:00+00:00",
-            "bars_held": 81,
+            "bars_held": 83,
             "max_bars": 240,
             "extreme": 1.9470384251006747,
             "fees_paid": 0.18850837359081624,
@@ -144,7 +144,7 @@
             "trail_atr": null,
             "liq_price": 2.303825188782658,
             "opened_at": "2026-09-10 13:00:00+00:00",
-            "bars_held": 81,
+            "bars_held": 83,
             "max_bars": 240,
             "extreme": 1.9470404116799198,
             "fees_paid": 0.1377526442822009,
@@ -188,14 +188,14 @@
     },
     "cooldown": {}
   },
-  "ticks": 573,
-  "updated_at": "2026-09-13 22:41:17+00:00",
+  "ticks": 574,
+  "updated_at": "2026-09-14 00:29:39+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 76716.7,
-    "SOL-USDT-SWAP": 99.84,
-    "PUMP-USDT-SWAP": 0.003522,
+    "BTC-USDT-SWAP": 76434.8,
+    "SOL-USDT-SWAP": 99.03,
+    "PUMP-USDT-SWAP": 0.003468,
     "TRUMP-USDT-SWAP": 1.936,
-    "RAY-USDT-SWAP": 1.447
+    "RAY-USDT-SWAP": 1.3766
   },
   "summary": [
     {
