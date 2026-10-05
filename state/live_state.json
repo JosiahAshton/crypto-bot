@@ -10,14 +10,14 @@
     "WLD-USDT-SWAP"
   ],
   "last_screen": "2026-10-02 21:56:36+00:00",
-  "last_bar": "2026-10-05 07:00:00+00:00",
+  "last_bar": "2026-10-05 17:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
       "A_conservative": {
         "name": "A_conservative",
         "label": "Conservative 2%",
-        "cash": 111.53836098935558,
+        "cash": 111.54147271946097,
         "positions": {
           "UNI-USDT-SWAP": {
             "symbol": "UNI-USDT-SWAP",
@@ -33,11 +33,11 @@
             "trail_atr": null,
             "liq_price": 10.314817628185805,
             "opened_at": "2026-09-28 15:00:00+00:00",
-            "bars_held": 161,
+            "bars_held": 171,
             "max_bars": 240,
             "extreme": 8.713399857365838,
             "fees_paid": 0.015156767369551427,
-            "funding_paid": -0.041970437803863
+            "funding_paid": -0.045082167909252714
           }
         },
         "peak_equity": 128.63914315427382,
@@ -49,12 +49,12 @@
         "n_wins": 8,
         "n_liquidations": 0,
         "fees_total": 1.0286140474136904,
-        "funding_total": 0.724744221646506
+        "funding_total": 0.7216324915411163
       },
       "B_aggressive": {
         "name": "B_aggressive",
         "label": "Aggressive 8%",
-        "cash": 203.9394872287937,
+        "cash": 203.96921804632248,
         "positions": {
           "UNI-USDT-SWAP": {
             "symbol": "UNI-USDT-SWAP",
@@ -70,11 +70,11 @@
             "trail_atr": null,
             "liq_price": 10.31479074040289,
             "opened_at": "2026-09-28 15:00:00+00:00",
-            "bars_held": 161,
+            "bars_held": 171,
             "max_bars": 240,
             "extreme": 8.713377144021573,
             "fees_paid": 0.14481394435973846,
-            "funding_paid": -0.4010037457258137
+            "funding_paid": -0.43073456325457926
           }
         },
         "peak_equity": 356.7049530678078,
@@ -86,12 +86,12 @@
         "n_wins": 8,
         "n_liquidations": 0,
         "fees_total": 7.663160194384494,
-        "funding_total": 4.158123694885123
+        "funding_total": 4.128392877356357
       },
       "C_degen": {
         "name": "C_degen",
         "label": "Degen 20%",
-        "cash": 49.26677265577796,
+        "cash": 49.31169248940622,
         "positions": {
           "UNI-USDT-SWAP": {
             "symbol": "UNI-USDT-SWAP",
@@ -107,11 +107,11 @@
             "trail_atr": null,
             "liq_price": 10.314775398130292,
             "opened_at": "2026-09-28 15:00:00+00:00",
-            "bars_held": 161,
+            "bars_held": 171,
             "max_bars": 240,
             "extreme": 8.713364183699763,
             "fees_paid": 0.218796829444725,
-            "funding_paid": -0.6058703742298089
+            "funding_paid": -0.6507902078580657
           }
         },
         "peak_equity": 417.57328086074324,
@@ -123,12 +123,12 @@
         "n_wins": 7,
         "n_liquidations": 0,
         "fees_total": 10.59975984492452,
-        "funding_total": 4.157069915899871
+        "funding_total": 4.112150082271614
       },
       "E_optimal": {
         "name": "E_optimal",
         "label": "Optimal 12%",
-        "cash": 180.29127087409,
+        "cash": 180.34067374702474,
         "positions": {
           "UNI-USDT-SWAP": {
             "symbol": "UNI-USDT-SWAP",
@@ -144,11 +144,11 @@
             "trail_atr": null,
             "liq_price": 10.314770869866042,
             "opened_at": "2026-09-28 15:00:00+00:00",
-            "bars_held": 161,
+            "bars_held": 171,
             "max_bars": 240,
             "extreme": 8.713360358467122,
             "fees_paid": 0.24063284178031363,
-            "funding_paid": -0.6663367758818703
+            "funding_paid": -0.715739648816617
           }
         },
         "peak_equity": 419.46448115177054,
@@ -160,7 +160,7 @@
         "n_wins": 8,
         "n_liquidations": 0,
         "fees_total": 11.987055762695656,
-        "funding_total": 5.544278089644042
+        "funding_total": 5.4948752167092945
       },
       "D_max_leverage": {
         "name": "D_max_leverage",
@@ -188,20 +188,20 @@
     },
     "cooldown": {}
   },
-  "ticks": 697,
-  "updated_at": "2026-10-05 08:55:39+00:00",
+  "ticks": 698,
+  "updated_at": "2026-10-05 18:06:05+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 86208.1,
-    "SOL-USDT-SWAP": 121.01,
-    "PUMP-USDT-SWAP": 0.00635,
-    "NEAR-USDT-SWAP": 5.037,
-    "WLD-USDT-SWAP": 0.579,
-    "UNI-USDT-SWAP": 9.004
+    "BTC-USDT-SWAP": 85349.4,
+    "SOL-USDT-SWAP": 119.99,
+    "PUMP-USDT-SWAP": 0.006283,
+    "NEAR-USDT-SWAP": 5.083,
+    "WLD-USDT-SWAP": 0.5597,
+    "UNI-USDT-SWAP": 9.012
   },
   "summary": [
     {
       "book": "Conservative 2%",
-      "equity": 116.86,
+      "equity": 116.83,
       "return_pct": 65.7,
       "peak": 128.64,
       "max_dd_pct": 9.2,
@@ -215,43 +215,43 @@
     },
     {
       "book": "Aggressive 8%",
-      "equity": 254.75,
-      "return_pct": 261.2,
+      "equity": 254.51,
+      "return_pct": 260.9,
       "peak": 356.7,
       "max_dd_pct": 28.6,
       "trades": 19,
       "win_rate": 42.1,
       "liquidations": 0,
       "fees": 7.66,
-      "funding": 4.16,
+      "funding": 4.13,
       "open": 1,
       "dead": false
     },
     {
       "book": "Degen 20%",
-      "equity": 126.04,
-      "return_pct": 78.7,
+      "equity": 125.68,
+      "return_pct": 78.2,
       "peak": 417.57,
-      "max_dd_pct": 69.8,
+      "max_dd_pct": 69.9,
       "trades": 16,
       "win_rate": 43.8,
       "liquidations": 0,
       "fees": 10.6,
-      "funding": 4.16,
+      "funding": 4.11,
       "open": 1,
       "dead": false
     },
     {
       "book": "Optimal 12%",
-      "equity": 264.72,
-      "return_pct": 275.4,
+      "equity": 264.33,
+      "return_pct": 274.8,
       "peak": 419.46,
-      "max_dd_pct": 36.9,
+      "max_dd_pct": 37.0,
       "trades": 19,
       "win_rate": 42.1,
       "liquidations": 0,
       "fees": 11.99,
-      "funding": 5.54,
+      "funding": 5.49,
       "open": 1,
       "dead": false
     },
