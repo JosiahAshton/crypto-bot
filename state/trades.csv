@@ -203,3 +203,4 @@ time,book,symbol,module,side,entry,exit,qty,notional,leverage,margin,pnl,fees,fu
 2026-10-08 18:00:00+00:00,B_aggressive,NEAR-USDT-SWAP,breakout,short,4.385547,,41.434755972638804,181.71,2.8,65.1189,,0.0909,0.0,0,OPEN donchian break er=0.49 ext=0.83atr,102.6192
 2026-10-08 18:00:00+00:00,C_degen,NEAR-USDT-SWAP,breakout,short,4.385549,,29.524867984034355,129.48,2.8,46.4014,,0.0647,0.0,0,OPEN donchian break er=0.49 ext=0.83atr,0.0647
 2026-10-08 18:00:00+00:00,E_optimal,NEAR-USDT-SWAP,breakout,short,4.385541,,72.38230285580829,317.44,2.8,113.756,,0.1587,0.0,0,OPEN donchian break er=0.49 ext=0.83atr,47.5797
+2026-10-09 11:00:00+00:00,C_degen,BTC-USDT-SWAP,breakout,short,80755.231945,83103.060683,0.018599174318776335,1501.98,15.1,99.1502,-44.4405,1.5238,-0.0529,19,stop,54.7349

@@ -1,21 +1,22 @@
 # Live scoreboard
 
-**Updated:** 2026-10-09 00:23:17 UTC &middot; tick #711 &middot; started 2026-08-14 at A$100.00 (US$70.52)
+**Updated:** 2026-10-09 13:44:05 UTC &middot; tick #712 &middot; started 2026-08-14 at A$100.00 (US$70.52)
 
 **Trading:** BTC-USDT-SWAP, SOL-USDT-SWAP, PUMP-USDT-SWAP, NEAR-USDT-SWAP, WLD-USDT-SWAP
 
 | Book | USD | AUD | Return | Trades | Win% | Open | Liq | Fees | Funding |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Conservative 2% | $125.71 | A$178.27 | +78.3% | 21 | 43% | 3 | 0 | $1.20 | $0.69 |
-| Aggressive 8% | $337.27 | A$478.28 | +378.3% | 21 | 43% | 3 | 0 | $9.23 | $3.83 |
-| Degen 20% | $186.71 | A$264.77 | +164.8% | 18 | 44% | 3 | 0 | $12.11 | $3.86 |
-| Optimal 12% | $388.81 | A$551.36 | +451.3% | 21 | 43% | 3 | 0 | $14.16 | $5.11 |
+| Conservative 2% | $122.98 | A$174.40 | +74.4% | 21 | 43% | 3 | 0 | $1.20 | $0.70 |
+| Aggressive 8% | $309.86 | A$439.41 | +339.4% | 21 | 43% | 3 | 0 | $9.23 | $3.94 |
+| Degen 20% | $148.89 | A$211.14 | +111.1% | 19 | 42% | 2 | 0 | $12.88 | $3.90 |
+| Optimal 12% | $349.93 | A$496.23 | +396.2% | 21 | 43% | 3 | 0 | $14.16 | $5.31 |
 | Max Leverage 100x **DEAD** | $4.48 | A$6.35 | -93.6% | 15 | 7% | 0 | 0 | $23.78 | $2.72 |
 
 ## Recent closed trades
 
 | Time | Book | Symbol | Side | Module | Lev | PnL $ | Exit |
 |---|---|---|---|---|---:|---:|---|
+| 2026-10-09 11:00 | C_degen | BTC-USDT-SWAP | short | breakout | 15.1x | -44.441 | stop |
 | 2026-10-08 14:00 | E_optimal | UNI-USDT-SWAP | short | breakout | 4.8x | +60.217 | time stop |
 | 2026-10-08 14:00 | C_degen | UNI-USDT-SWAP | short | breakout | 4.8x | +54.753 | time stop |
 | 2026-10-08 14:00 | B_aggressive | UNI-USDT-SWAP | short | breakout | 4.8x | +36.240 | time stop |
@@ -40,7 +41,6 @@
 | 2026-09-24 11:00 | C_degen | PUMP-USDT-SWAP | long | breakout | 4.7x | -39.414 | stop |
 | 2026-09-24 11:00 | B_aggressive | PUMP-USDT-SWAP | long | breakout | 4.7x | -18.627 | stop |
 | 2026-09-24 11:00 | A_conservative | PUMP-USDT-SWAP | long | breakout | 4.7x | -2.299 | stop |
-| 2026-09-18 13:00 | E_optimal | TRUMP-USDT-SWAP | short | breakout | 4.8x | -22.037 | stop |
 
 ---
 
