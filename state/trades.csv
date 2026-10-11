@@ -212,3 +212,4 @@ time,book,symbol,module,side,entry,exit,qty,notional,leverage,margin,pnl,fees,fu
 2026-10-10 19:01:12+00:00,B_aggressive,STRK-USDT-SWAP,breakout,long,0.10377,,1175.237879732303,121.95,2.3,52.1287,,0.061,0.0,0,OPEN donchian break er=0.71 ext=0.84atr,87.4569
 2026-10-10 19:01:12+00:00,C_degen,STRK-USDT-SWAP,breakout,long,0.10377,,1406.933052694111,146.0,2.3,62.4057,,0.073,0.0,0,OPEN donchian break er=0.71 ext=0.84atr,18.6299
 2026-10-10 19:01:12+00:00,E_optimal,STRK-USDT-SWAP,breakout,long,0.10377,,1938.6690500248753,201.18,2.3,85.9913,,0.1006,0.0,0,OPEN donchian break er=0.71 ext=0.84atr,26.0566
+2026-10-11 16:00:00+00:00,C_degen,BTC-USDT-SWAP,meanrev,short,83863.479178,,0.01167075058562923,978.75,55.2,17.728,,0.1957,0.0,0,OPEN z=4.23 bw=20pct rr=2.00,0.783
