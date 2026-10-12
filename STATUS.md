@@ -1,21 +1,22 @@
 # Live scoreboard
 
-**Updated:** 2026-10-12 01:50:53 UTC &middot; tick #725 &middot; started 2026-08-14 at A$100.00 (US$70.52)
+**Updated:** 2026-10-12 08:46:36 UTC &middot; tick #726 &middot; started 2026-08-14 at A$100.00 (US$70.52)
 
 **Trading:** BTC-USDT-SWAP, SOL-USDT-SWAP, PUMP-USDT-SWAP, STRK-USDT-SWAP, UNI-USDT-SWAP
 
 | Book | USD | AUD | Return | Trades | Win% | Open | Liq | Fees | Funding |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Conservative 2% | $121.59 | A$172.42 | +72.4% | 22 | 41% | 3 | 0 | $1.21 | $0.66 |
-| Aggressive 8% | $295.96 | A$419.69 | +319.7% | 22 | 41% | 3 | 0 | $9.40 | $3.59 |
-| Degen 20% | $161.98 | A$229.70 | +129.7% | 20 | 40% | 3 | 0 | $13.23 | $3.73 |
-| Optimal 12% | $334.43 | A$474.25 | +374.2% | 22 | 41% | 3 | 0 | $14.45 | $4.78 |
+| Conservative 2% | $118.60 | A$168.18 | +68.2% | 22 | 41% | 3 | 0 | $1.21 | $0.66 |
+| Aggressive 8% | $267.87 | A$379.86 | +279.9% | 22 | 41% | 3 | 0 | $9.40 | $3.60 |
+| Degen 20% | $124.13 | A$176.03 | +76.0% | 21 | 38% | 2 | 0 | $13.72 | $3.74 |
+| Optimal 12% | $289.73 | A$410.86 | +310.8% | 22 | 41% | 3 | 0 | $14.45 | $4.79 |
 | Max Leverage 100x **DEAD** | $4.48 | A$6.35 | -93.6% | 15 | 7% | 0 | 0 | $23.78 | $2.72 |
 
 ## Recent closed trades
 
 | Time | Book | Symbol | Side | Module | Lev | PnL $ | Exit |
 |---|---|---|---|---|---:|---:|---|
+| 2026-10-12 06:00 | C_degen | BTC-USDT-SWAP | short | meanrev | 55.2x | -5.500 | stop |
 | 2026-10-10 04:00 | E_optimal | NEAR-USDT-SWAP | short | breakout | 2.8x | -49.236 | stop |
 | 2026-10-10 04:00 | C_degen | NEAR-USDT-SWAP | short | breakout | 2.8x | -20.083 | stop |
 | 2026-10-10 04:00 | B_aggressive | NEAR-USDT-SWAP | short | breakout | 2.8x | -28.185 | stop |
@@ -40,7 +41,6 @@
 | 2026-09-28 04:00 | E_optimal | SOL-USDT-SWAP | long | breakout | 10.3x | +96.118 | time stop |
 | 2026-09-28 04:00 | C_degen | SOL-USDT-SWAP | long | breakout | 10.3x | +18.640 | time stop |
 | 2026-09-28 04:00 | B_aggressive | SOL-USDT-SWAP | long | breakout | 10.3x | +62.758 | time stop |
-| 2026-09-28 04:00 | A_conservative | SOL-USDT-SWAP | long | breakout | 10.3x | +7.666 | time stop |
 
 ---
 
