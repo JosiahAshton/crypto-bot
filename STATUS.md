@@ -1,21 +1,24 @@
 # Live scoreboard
 
-**Updated:** 2026-10-21 19:35:28 UTC &middot; tick #781 &middot; started 2026-08-14 at A$100.00 (US$70.52)
+**Updated:** 2026-10-21 22:43:15 UTC &middot; tick #782 &middot; started 2026-08-14 at A$100.00 (US$70.52)
 
 **Trading:** BTC-USDT-SWAP, SOL-USDT-SWAP, PUMP-USDT-SWAP, WLD-USDT-SWAP, FIL-USDT-SWAP
 
 | Book | USD | AUD | Return | Trades | Win% | Open | Liq | Fees | Funding |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Conservative 2% | $118.38 | A$167.87 | +67.9% | 27 | 41% | 3 | 0 | $1.44 | $0.50 |
-| Aggressive 8% | $260.22 | A$369.01 | +269.0% | 27 | 41% | 3 | 0 | $11.50 | $2.11 |
-| Degen 20% | $92.70 | A$131.46 | +31.5% | 25 | 36% | 2 | 0 | $14.75 | $3.43 |
-| Optimal 12% | $291.80 | A$413.80 | +313.8% | 27 | 41% | 3 | 0 | $17.11 | $3.24 |
+| Conservative 2% | $116.54 | A$165.26 | +65.3% | 28 | 39% | 2 | 0 | $1.46 | $0.50 |
+| Aggressive 8% | $243.55 | A$345.37 | +245.4% | 28 | 39% | 2 | 0 | $11.76 | $2.11 |
+| Degen 20% | $90.67 | A$128.58 | +28.6% | 25 | 36% | 2 | 0 | $14.75 | $3.43 |
+| Optimal 12% | $263.32 | A$373.41 | +273.4% | 28 | 39% | 2 | 0 | $17.55 | $3.24 |
 | Max Leverage 100x **DEAD** | $4.48 | A$6.35 | -93.6% | 15 | 7% | 0 | 0 | $23.78 | $2.72 |
 
 ## Recent closed trades
 
 | Time | Book | Symbol | Side | Module | Lev | PnL $ | Exit |
 |---|---|---|---|---|---:|---:|---|
+| 2026-10-21 20:00 | E_optimal | PUMP-USDT-SWAP | short | meanrev | 7.4x | -37.239 | stop |
+| 2026-10-21 20:00 | B_aggressive | PUMP-USDT-SWAP | short | meanrev | 7.4x | -21.825 | stop |
+| 2026-10-21 20:00 | A_conservative | PUMP-USDT-SWAP | short | meanrev | 7.4x | -2.430 | stop |
 | 2026-10-20 20:00 | E_optimal | PUMP-USDT-SWAP | short | breakout | 3.6x | -19.677 | stop |
 | 2026-10-20 20:00 | C_degen | PUMP-USDT-SWAP | short | breakout | 3.6x | -12.544 | stop |
 | 2026-10-20 20:00 | B_aggressive | PUMP-USDT-SWAP | short | breakout | 3.6x | -24.010 | stop |
@@ -38,9 +41,6 @@
 | 2026-10-12 06:00 | C_degen | BTC-USDT-SWAP | short | meanrev | 55.2x | -5.500 | stop |
 | 2026-10-10 04:00 | E_optimal | NEAR-USDT-SWAP | short | breakout | 2.8x | -49.236 | stop |
 | 2026-10-10 04:00 | C_degen | NEAR-USDT-SWAP | short | breakout | 2.8x | -20.083 | stop |
-| 2026-10-10 04:00 | B_aggressive | NEAR-USDT-SWAP | short | breakout | 2.8x | -28.185 | stop |
-| 2026-10-10 04:00 | A_conservative | NEAR-USDT-SWAP | short | breakout | 2.8x | -2.557 | stop |
-| 2026-10-09 11:00 | C_degen | BTC-USDT-SWAP | short | breakout | 15.1x | -44.441 | stop |
 
 ---
 
