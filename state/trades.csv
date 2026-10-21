@@ -249,3 +249,6 @@ time,book,symbol,module,side,entry,exit,qty,notional,leverage,margin,pnl,fees,fu
 2026-10-20 21:00:00+00:00,B_aggressive,WLD-USDT-SWAP,breakout,long,0.59123,,402.18175299624244,237.78,4.4,54.6037,,0.1189,0.0,0,OPEN donchian break er=0.47 ext=0.17atr,161.9535
 2026-10-20 21:00:00+00:00,C_degen,WLD-USDT-SWAP,breakout,long,0.59123,,337.46422925724886,199.52,4.4,45.8171,,0.0998,0.0,0,OPEN donchian break er=0.47 ext=0.17atr,0.0998
 2026-10-20 21:00:00+00:00,E_optimal,WLD-USDT-SWAP,breakout,long,0.591231,,685.151387643788,405.08,4.4,93.0223,,0.2025,0.0,0,OPEN donchian break er=0.47 ext=0.17atr,123.6444
+2026-10-21 16:00:00+00:00,A_conservative,PUMP-USDT-SWAP,meanrev,short,0.004952,,11222.086783723882,55.57,7.4,7.5464,,0.0111,0.0,0,OPEN z=3.69 bw=17pct rr=2.00,100.0918
+2026-10-21 16:00:00+00:00,B_aggressive,PUMP-USDT-SWAP,meanrev,short,0.004952,,100764.72316121122,498.98,7.4,67.7603,,0.0998,0.0,0,OPEN z=3.69 bw=17pct rr=2.00,93.9757
+2026-10-21 16:00:00+00:00,E_optimal,PUMP-USDT-SWAP,meanrev,short,0.004952,,171922.42342749584,851.35,7.4,115.6107,,0.1703,0.0,0,OPEN z=3.69 bw=17pct rr=2.00,7.6621
