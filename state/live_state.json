@@ -10,14 +10,14 @@
     "FIL-USDT-SWAP"
   ],
   "last_screen": "2026-10-16 23:25:40+00:00",
-  "last_bar": "2026-10-23 05:00:00+00:00",
+  "last_bar": "2026-10-23 10:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
       "A_conservative": {
         "name": "A_conservative",
         "label": "Conservative 2%",
-        "cash": 106.55379650478783,
+        "cash": 106.55189261416082,
         "positions": {
           "FIL-USDT-SWAP": {
             "symbol": "FIL-USDT-SWAP",
@@ -33,11 +33,11 @@
             "trail_atr": null,
             "liq_price": 1.139527887767262,
             "opened_at": "2026-10-22 14:00:00+00:00",
-            "bars_held": 16,
+            "bars_held": 21,
             "max_bars": 240,
             "extreme": 0.972947319946096,
             "fees_paid": 0.015405724635476906,
-            "funding_paid": 0.010548789183593744
+            "funding_paid": 0.012452679810595441
           }
         },
         "peak_equity": 129.3186693191056,
@@ -49,12 +49,12 @@
         "n_wins": 11,
         "n_liquidations": 0,
         "fees_total": 1.525123022195654,
-        "funding_total": 0.5203591438297551
+        "funding_total": 0.5222630344567568
       },
       "B_aggressive": {
         "name": "B_aggressive",
         "label": "Aggressive 8%",
-        "cash": 162.91164526410074,
+        "cash": 162.89760091439382,
         "positions": {
           "FIL-USDT-SWAP": {
             "symbol": "FIL-USDT-SWAP",
@@ -70,11 +70,11 @@
             "trail_atr": null,
             "liq_price": 1.1395256379590606,
             "opened_at": "2026-10-22 14:00:00+00:00",
-            "bars_held": 16,
+            "bars_held": 21,
             "max_bars": 240,
             "extreme": 0.9729453990235073,
             "fees_paid": 0.11364253493714026,
-            "funding_paid": 0.07781480836018331
+            "funding_paid": 0.0918591580670958
           }
         },
         "peak_equity": 370.86275825532704,
@@ -86,7 +86,7 @@
         "n_wins": 11,
         "n_liquidations": 0,
         "fees_total": 12.288513255967594,
-        "funding_total": 2.237862450480839
+        "funding_total": 2.2519068001877516
       },
       "C_degen": {
         "name": "C_degen",
@@ -107,7 +107,7 @@
       "E_optimal": {
         "name": "E_optimal",
         "label": "Optimal 12%",
-        "cash": 136.6402085649684,
+        "cash": 136.61972335754947,
         "positions": {
           "FIL-USDT-SWAP": {
             "symbol": "FIL-USDT-SWAP",
@@ -123,11 +123,11 @@
             "trail_atr": null,
             "liq_price": 1.1395244443756367,
             "opened_at": "2026-10-22 14:00:00+00:00",
-            "bars_held": 16,
+            "bars_held": 21,
             "max_bars": 240,
             "extreme": 0.9729443799226973,
             "fees_paid": 0.16575979023260623,
-            "funding_paid": 0.11350133845907893
+            "funding_paid": 0.13398654587799988
           }
         },
         "peak_equity": 434.7167693856179,
@@ -139,7 +139,7 @@
         "n_wins": 11,
         "n_liquidations": 0,
         "fees_total": 18.429251648634512,
-        "funding_total": 3.439568135306442
+        "funding_total": 3.460053342725363
       },
       "D_max_leverage": {
         "name": "D_max_leverage",
@@ -167,22 +167,22 @@
     },
     "cooldown": {}
   },
-  "ticks": 790,
-  "updated_at": "2026-10-23 06:29:41+00:00",
+  "ticks": 791,
+  "updated_at": "2026-10-23 11:59:32+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 81808.1,
-    "SOL-USDT-SWAP": 104.43,
-    "PUMP-USDT-SWAP": 0.004646,
-    "WLD-USDT-SWAP": 0.5551,
-    "FIL-USDT-SWAP": 0.9897
+    "BTC-USDT-SWAP": 81701.1,
+    "SOL-USDT-SWAP": 104.5,
+    "PUMP-USDT-SWAP": 0.004638,
+    "WLD-USDT-SWAP": 0.5418,
+    "FIL-USDT-SWAP": 0.9918
   },
   "summary": [
     {
       "book": "Conservative 2%",
-      "equity": 112.07,
-      "return_pct": 58.9,
+      "equity": 112.0,
+      "return_pct": 58.8,
       "peak": 129.32,
-      "max_dd_pct": 13.3,
+      "max_dd_pct": 13.4,
       "trades": 30,
       "win_rate": 36.7,
       "liquidations": 0,
@@ -193,15 +193,15 @@
     },
     {
       "book": "Aggressive 8%",
-      "equity": 203.59,
-      "return_pct": 188.7,
+      "equity": 203.09,
+      "return_pct": 188.0,
       "peak": 370.86,
-      "max_dd_pct": 45.1,
+      "max_dd_pct": 45.2,
       "trades": 30,
       "win_rate": 36.7,
       "liquidations": 0,
       "fees": 12.29,
-      "funding": 2.24,
+      "funding": 2.25,
       "open": 1,
       "dead": false
     },
@@ -221,15 +221,15 @@
     },
     {
       "book": "Optimal 12%",
-      "equity": 195.98,
-      "return_pct": 177.9,
+      "equity": 195.24,
+      "return_pct": 176.9,
       "peak": 434.72,
-      "max_dd_pct": 54.9,
+      "max_dd_pct": 55.1,
       "trades": 30,
       "win_rate": 36.7,
       "liquidations": 0,
       "fees": 18.43,
-      "funding": 3.44,
+      "funding": 3.46,
       "open": 1,
       "dead": false
     },
