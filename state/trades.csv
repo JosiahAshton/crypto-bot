@@ -266,3 +266,8 @@ time,book,symbol,module,side,entry,exit,qty,notional,leverage,margin,pnl,fees,fu
 2026-10-22 14:00:00+00:00,A_conservative,FIL-USDT-SWAP,breakout,short,0.972947,,31.668157812142237,30.81,5.1,6.0456,,0.0154,0.0,0,OPEN donchian break er=0.63 ext=0.32atr,106.5643
 2026-10-22 14:00:00+00:00,B_aggressive,FIL-USDT-SWAP,breakout,short,0.972945,,233.6051643827025,227.29,5.1,44.5961,,0.1136,0.0,0,OPEN donchian break er=0.63 ext=0.32atr,162.9895
 2026-10-22 14:00:00+00:00,E_optimal,FIL-USDT-SWAP,breakout,short,0.972944,,340.73847108459836,331.52,5.1,65.0482,,0.1658,0.0,0,OPEN donchian break er=0.63 ext=0.32atr,136.7537
+2026-10-24 15:00:00+00:00,A_conservative,NEAR-USDT-SWAP,breakout,short,4.344884,,6.5182982876284346,28.32,4.7,5.98,,0.0142,0.0,0,OPEN donchian break er=0.46 ext=0.57atr,100.5564
+2026-10-24 15:00:00+00:00,B_aggressive,NEAR-USDT-SWAP,breakout,short,4.344876,,49.945905264038046,217.01,4.7,45.8212,,0.1085,0.0,0,OPEN donchian break er=0.46 ext=0.57atr,116.9582
+2026-10-24 15:00:00+00:00,C_degen,NEAR-USDT-SWAP,breakout,short,4.344879,,33.82341568769409,146.96,4.7,31.0302,,0.0735,0.0,0,OPEN donchian break er=0.46 ext=0.57atr,28.102
+2026-10-24 15:00:00+00:00,E_optimal,NEAR-USDT-SWAP,breakout,short,4.344871,,74.66268740519294,324.4,4.7,68.4968,,0.1622,0.0,0,OPEN donchian break er=0.46 ext=0.57atr,67.9466
+2026-10-24 16:00:00+00:00,C_degen,FIL-USDT-SWAP,meanrev,long,0.925502,,288.6935120913371,267.19,9.6,27.8348,,0.0534,0.0,0,OPEN z=-3.02 bw=28pct rr=2.00,0.2137
