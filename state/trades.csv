@@ -271,3 +271,4 @@ time,book,symbol,module,side,entry,exit,qty,notional,leverage,margin,pnl,fees,fu
 2026-10-24 15:00:00+00:00,C_degen,NEAR-USDT-SWAP,breakout,short,4.344879,,33.82341568769409,146.96,4.7,31.0302,,0.0735,0.0,0,OPEN donchian break er=0.46 ext=0.57atr,28.102
 2026-10-24 15:00:00+00:00,E_optimal,NEAR-USDT-SWAP,breakout,short,4.344871,,74.66268740519294,324.4,4.7,68.4968,,0.1622,0.0,0,OPEN donchian break er=0.46 ext=0.57atr,67.9466
 2026-10-24 16:00:00+00:00,C_degen,FIL-USDT-SWAP,meanrev,long,0.925502,,288.6935120913371,267.19,9.6,27.8348,,0.0534,0.0,0,OPEN z=-3.02 bw=28pct rr=2.00,0.2137
+2026-10-25 15:00:00+00:00,C_degen,FIL-USDT-SWAP,meanrev,long,0.925502,0.92392,288.6935120913371,267.19,9.6,27.8348,-0.5901,0.1868,-0.0178,24,time stop,27.4785

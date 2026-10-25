@@ -1,21 +1,22 @@
 # Live scoreboard
 
-**Updated:** 2026-10-25 14:08:51 UTC &middot; tick #805 &middot; started 2026-08-14 at A$100.00 (US$70.52)
+**Updated:** 2026-10-25 17:38:30 UTC &middot; tick #806 &middot; started 2026-08-14 at A$100.00 (US$70.52)
 
 **Trading:** BTC-USDT-SWAP, SOL-USDT-SWAP, NEAR-USDT-SWAP, PUMP-USDT-SWAP, WLD-USDT-SWAP
 
 | Book | USD | AUD | Return | Trades | Win% | Open | Liq | Fees | Funding |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Conservative 2% | $113.84 | A$161.43 | +61.4% | 30 | 37% | 2 | 0 | $1.54 | $0.53 |
-| Aggressive 8% | $216.51 | A$307.03 | +207.0% | 30 | 37% | 2 | 0 | $12.40 | $2.27 |
-| Degen 20% | $52.60 | A$74.59 | -25.4% | 27 | 33% | 2 | 0 | $15.25 | $3.46 |
-| Optimal 12% | $214.64 | A$304.38 | +204.4% | 30 | 37% | 2 | 0 | $18.59 | $3.49 |
+| Conservative 2% | $111.94 | A$158.74 | +58.7% | 30 | 37% | 2 | 0 | $1.54 | $0.53 |
+| Aggressive 8% | $202.02 | A$286.48 | +186.5% | 30 | 37% | 2 | 0 | $12.40 | $2.28 |
+| Degen 20% | $47.77 | A$67.74 | -32.3% | 28 | 32% | 1 | 0 | $15.38 | $3.46 |
+| Optimal 12% | $193.10 | A$273.83 | +173.8% | 30 | 37% | 2 | 0 | $18.59 | $3.50 |
 | Max Leverage 100x **DEAD** | $4.48 | A$6.35 | -93.6% | 15 | 7% | 0 | 0 | $23.78 | $2.72 |
 
 ## Recent closed trades
 
 | Time | Book | Symbol | Side | Module | Lev | PnL $ | Exit |
 |---|---|---|---|---|---:|---:|---|
+| 2026-10-25 15:00 | C_degen | FIL-USDT-SWAP | long | meanrev | 9.6x | -0.590 | time stop |
 | 2026-10-22 08:00 | E_optimal | SOL-USDT-SWAP | long | breakout | 11.0x | -39.230 | stop |
 | 2026-10-22 08:00 | C_degen | SOL-USDT-SWAP | long | breakout | 11.0x | -20.709 | stop |
 | 2026-10-22 08:00 | B_aggressive | SOL-USDT-SWAP | long | breakout | 11.0x | -22.849 | stop |
@@ -40,7 +41,6 @@
 | 2026-10-17 12:00 | A_conservative | SOL-USDT-SWAP | short | breakout | 12.7x | +8.438 | time stop |
 | 2026-10-13 05:00 | E_optimal | UNI-USDT-SWAP | short | breakout | 5.6x | -26.960 | stop |
 | 2026-10-13 05:00 | C_degen | UNI-USDT-SWAP | short | breakout | 5.6x | -17.331 | stop |
-| 2026-10-13 05:00 | B_aggressive | UNI-USDT-SWAP | short | breakout | 5.6x | -26.787 | stop |
 
 ---
 
