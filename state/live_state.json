@@ -10,7 +10,7 @@
     "WLD-USDT-SWAP"
   ],
   "last_screen": "2026-10-24 01:41:19+00:00",
-  "last_bar": "2026-10-28 18:00:00+00:00",
+  "last_bar": "2026-10-28 22:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -33,7 +33,7 @@
             "trail_atr": null,
             "liq_price": 1.139527887767262,
             "opened_at": "2026-10-22 14:00:00+00:00",
-            "bars_held": 149,
+            "bars_held": 153,
             "max_bars": 240,
             "extreme": 0.972947319946096,
             "fees_paid": 0.015405724635476906,
@@ -70,7 +70,7 @@
             "trail_atr": null,
             "liq_price": 1.1395256379590606,
             "opened_at": "2026-10-22 14:00:00+00:00",
-            "bars_held": 149,
+            "bars_held": 153,
             "max_bars": 240,
             "extreme": 0.9729453990235073,
             "fees_paid": 0.11364253493714026,
@@ -123,7 +123,7 @@
             "trail_atr": null,
             "liq_price": 1.1395244443756367,
             "opened_at": "2026-10-22 14:00:00+00:00",
-            "bars_held": 149,
+            "bars_held": 153,
             "max_bars": 240,
             "extreme": 0.9729443799226973,
             "fees_paid": 0.16575979023260623,
@@ -167,14 +167,14 @@
     },
     "cooldown": {}
   },
-  "ticks": 822,
-  "updated_at": "2026-10-28 19:22:24+00:00",
+  "ticks": 823,
+  "updated_at": "2026-10-28 23:24:39+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 81184.0,
-    "SOL-USDT-SWAP": 102.25,
-    "NEAR-USDT-SWAP": 4.72,
-    "PUMP-USDT-SWAP": 0.004382,
-    "WLD-USDT-SWAP": 0.4379,
+    "BTC-USDT-SWAP": 81320.3,
+    "SOL-USDT-SWAP": 102.44,
+    "NEAR-USDT-SWAP": 4.752,
+    "PUMP-USDT-SWAP": 0.004534,
+    "WLD-USDT-SWAP": 0.4382,
     "FIL-USDT-SWAP": 0.9151
   },
   "summary": [
