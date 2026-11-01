@@ -1,15 +1,15 @@
 # Live scoreboard
 
-**Updated:** 2026-11-01 00:50:24 UTC &middot; tick #838 &middot; started 2026-08-14 at A$100.00 (US$70.52)
+**Updated:** 2026-11-01 07:12:18 UTC &middot; tick #839 &middot; started 2026-08-14 at A$100.00 (US$70.52)
 
 **Trading:** BTC-USDT-SWAP, SOL-USDT-SWAP, PARTI-USDT-SWAP, PUMP-USDT-SWAP, WLD-USDT-SWAP
 
 | Book | USD | AUD | Return | Trades | Win% | Open | Liq | Fees | Funding |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Conservative 2% | $113.61 | A$161.11 | +61.1% | 32 | 38% | 1 | 0 | $1.60 | $0.50 |
-| Aggressive 8% | $214.29 | A$303.88 | +203.9% | 32 | 38% | 1 | 0 | $12.87 | $2.10 |
+| Conservative 2% | $113.62 | A$161.12 | +61.1% | 32 | 38% | 1 | 0 | $1.60 | $0.50 |
+| Aggressive 8% | $214.37 | A$303.99 | +204.0% | 32 | 38% | 1 | 0 | $12.87 | $2.09 |
 | Degen 20% | $47.59 | A$67.49 | -32.5% | 31 | 36% | 0 | 0 | $15.77 | $3.43 |
-| Optimal 12% | $210.93 | A$299.12 | +199.1% | 32 | 38% | 1 | 0 | $19.29 | $3.24 |
+| Optimal 12% | $211.05 | A$299.29 | +199.3% | 32 | 38% | 1 | 0 | $19.29 | $3.22 |
 | Max Leverage 100x **DEAD** | $4.48 | A$6.35 | -93.6% | 15 | 7% | 0 | 0 | $23.78 | $2.72 |
 
 ## Recent closed trades
