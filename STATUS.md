@@ -1,21 +1,24 @@
 # Live scoreboard
 
-**Updated:** 2026-11-01 07:12:18 UTC &middot; tick #839 &middot; started 2026-08-14 at A$100.00 (US$70.52)
+**Updated:** 2026-11-01 14:21:30 UTC &middot; tick #840 &middot; started 2026-08-14 at A$100.00 (US$70.52)
 
 **Trading:** BTC-USDT-SWAP, SOL-USDT-SWAP, PARTI-USDT-SWAP, PUMP-USDT-SWAP, WLD-USDT-SWAP
 
 | Book | USD | AUD | Return | Trades | Win% | Open | Liq | Fees | Funding |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Conservative 2% | $113.62 | A$161.12 | +61.1% | 32 | 38% | 1 | 0 | $1.60 | $0.50 |
-| Aggressive 8% | $214.37 | A$303.99 | +204.0% | 32 | 38% | 1 | 0 | $12.87 | $2.09 |
+| Conservative 2% | $113.46 | A$160.90 | +60.9% | 33 | 39% | 0 | 0 | $1.62 | $0.50 |
+| Aggressive 8% | $213.22 | A$302.36 | +202.4% | 33 | 39% | 0 | 0 | $12.97 | $2.09 |
 | Degen 20% | $47.59 | A$67.49 | -32.5% | 31 | 36% | 0 | 0 | $15.77 | $3.43 |
-| Optimal 12% | $211.05 | A$299.29 | +199.3% | 32 | 38% | 1 | 0 | $19.29 | $3.22 |
+| Optimal 12% | $209.37 | A$296.90 | +196.9% | 33 | 39% | 0 | 0 | $19.44 | $3.23 |
 | Max Leverage 100x **DEAD** | $4.48 | A$6.35 | -93.6% | 15 | 7% | 0 | 0 | $23.78 | $2.72 |
 
 ## Recent closed trades
 
 | Time | Book | Symbol | Side | Module | Lev | PnL $ | Exit |
 |---|---|---|---|---|---:|---:|---|
+| 2026-11-01 13:00 | E_optimal | FIL-USDT-SWAP | short | breakout | 5.1x | +31.156 | time stop |
+| 2026-11-01 13:00 | B_aggressive | FIL-USDT-SWAP | short | breakout | 5.1x | +21.360 | time stop |
+| 2026-11-01 13:00 | A_conservative | FIL-USDT-SWAP | short | breakout | 5.1x | +2.896 | time stop |
 | 2026-10-28 13:00 | E_optimal | WLD-USDT-SWAP | long | meanrev | 8.7x | +3.045 | time stop |
 | 2026-10-28 13:00 | C_degen | WLD-USDT-SWAP | long | meanrev | 8.7x | +0.361 | time stop |
 | 2026-10-28 13:00 | C_degen | FIL-USDT-SWAP | long | meanrev | 9.7x | +0.750 | time stop |
@@ -38,9 +41,6 @@
 | 2026-10-21 20:00 | B_aggressive | PUMP-USDT-SWAP | short | meanrev | 7.4x | -21.825 | stop |
 | 2026-10-21 20:00 | A_conservative | PUMP-USDT-SWAP | short | meanrev | 7.4x | -2.430 | stop |
 | 2026-10-20 20:00 | E_optimal | PUMP-USDT-SWAP | short | breakout | 3.6x | -19.677 | stop |
-| 2026-10-20 20:00 | C_degen | PUMP-USDT-SWAP | short | breakout | 3.6x | -12.544 | stop |
-| 2026-10-20 20:00 | B_aggressive | PUMP-USDT-SWAP | short | breakout | 3.6x | -24.010 | stop |
-| 2026-10-20 20:00 | A_conservative | PUMP-USDT-SWAP | short | breakout | 3.6x | -2.466 | stop |
 
 ---
 
