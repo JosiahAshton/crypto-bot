@@ -10,7 +10,7 @@
     "WLD-USDT-SWAP"
   ],
   "last_screen": "2026-10-31 01:53:08+00:00",
-  "last_bar": "2026-11-02 07:00:00+00:00",
+  "last_bar": "2026-11-02 18:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -104,14 +104,14 @@
     },
     "cooldown": {}
   },
-  "ticks": 844,
-  "updated_at": "2026-11-02 08:59:34+00:00",
+  "ticks": 845,
+  "updated_at": "2026-11-02 19:25:10+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 78190.9,
-    "SOL-USDT-SWAP": 94.62,
-    "PARTI-USDT-SWAP": 0.04448,
-    "PUMP-USDT-SWAP": 0.004108,
-    "WLD-USDT-SWAP": 0.3848
+    "BTC-USDT-SWAP": 76945.3,
+    "SOL-USDT-SWAP": 91.7,
+    "PARTI-USDT-SWAP": 0.04417,
+    "PUMP-USDT-SWAP": 0.00394,
+    "WLD-USDT-SWAP": 0.3719
   },
   "summary": [
     {
