@@ -10,7 +10,7 @@
     "WLD-USDT-SWAP"
   ],
   "last_screen": "2026-10-31 01:53:08+00:00",
-  "last_bar": "2026-11-01 21:00:00+00:00",
+  "last_bar": "2026-11-02 00:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -20,8 +20,8 @@
         "cash": 113.46395109047099,
         "positions": {},
         "peak_equity": 129.3186693191056,
-        "day_key": "2026-11-01",
-        "day_start_equity": 113.59603871586204,
+        "day_key": "2026-11-02",
+        "day_start_equity": 113.46395109047099,
         "halted_until": null,
         "dead": false,
         "n_trades": 33,
@@ -36,8 +36,8 @@
         "cash": 213.22110275849712,
         "positions": {},
         "peak_equity": 370.86275825532704,
-        "day_key": "2026-11-01",
-        "day_start_equity": 214.19587244011583,
+        "day_key": "2026-11-02",
+        "day_start_equity": 213.22110275849712,
         "halted_until": null,
         "dead": false,
         "n_trades": 33,
@@ -52,7 +52,7 @@
         "cash": 47.58723784400569,
         "positions": {},
         "peak_equity": 417.57328086074324,
-        "day_key": "2026-11-01",
+        "day_key": "2026-11-02",
         "day_start_equity": 47.58723784400569,
         "halted_until": null,
         "dead": false,
@@ -68,8 +68,8 @@
         "cash": 209.36892033130925,
         "positions": {},
         "peak_equity": 434.7167693856179,
-        "day_key": "2026-11-01",
-        "day_start_equity": 210.79104063146104,
+        "day_key": "2026-11-02",
+        "day_start_equity": 209.36892033130925,
         "halted_until": null,
         "dead": false,
         "n_trades": 33,
@@ -104,14 +104,14 @@
     },
     "cooldown": {}
   },
-  "ticks": 842,
-  "updated_at": "2026-11-01 22:45:46+00:00",
+  "ticks": 843,
+  "updated_at": "2026-11-02 01:54:50+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 77782.5,
-    "SOL-USDT-SWAP": 93.84,
-    "PARTI-USDT-SWAP": 0.04447,
-    "PUMP-USDT-SWAP": 0.004119,
-    "WLD-USDT-SWAP": 0.3896
+    "BTC-USDT-SWAP": 78423.0,
+    "SOL-USDT-SWAP": 94.92,
+    "PARTI-USDT-SWAP": 0.04583,
+    "PUMP-USDT-SWAP": 0.004209,
+    "WLD-USDT-SWAP": 0.3886
   },
   "summary": [
     {
