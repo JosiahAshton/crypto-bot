@@ -10,7 +10,7 @@
     "WLD-USDT-SWAP"
   ],
   "last_screen": "2026-10-31 01:53:08+00:00",
-  "last_bar": "2026-11-02 18:00:00+00:00",
+  "last_bar": "2026-11-03 00:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -20,7 +20,7 @@
         "cash": 113.46395109047099,
         "positions": {},
         "peak_equity": 129.3186693191056,
-        "day_key": "2026-11-02",
+        "day_key": "2026-11-03",
         "day_start_equity": 113.46395109047099,
         "halted_until": null,
         "dead": false,
@@ -36,7 +36,7 @@
         "cash": 213.22110275849712,
         "positions": {},
         "peak_equity": 370.86275825532704,
-        "day_key": "2026-11-02",
+        "day_key": "2026-11-03",
         "day_start_equity": 213.22110275849712,
         "halted_until": null,
         "dead": false,
@@ -52,7 +52,7 @@
         "cash": 47.58723784400569,
         "positions": {},
         "peak_equity": 417.57328086074324,
-        "day_key": "2026-11-02",
+        "day_key": "2026-11-03",
         "day_start_equity": 47.58723784400569,
         "halted_until": null,
         "dead": false,
@@ -68,7 +68,7 @@
         "cash": 209.36892033130925,
         "positions": {},
         "peak_equity": 434.7167693856179,
-        "day_key": "2026-11-02",
+        "day_key": "2026-11-03",
         "day_start_equity": 209.36892033130925,
         "halted_until": null,
         "dead": false,
@@ -104,14 +104,14 @@
     },
     "cooldown": {}
   },
-  "ticks": 845,
-  "updated_at": "2026-11-02 19:25:10+00:00",
+  "ticks": 846,
+  "updated_at": "2026-11-03 01:44:23+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 76945.3,
-    "SOL-USDT-SWAP": 91.7,
-    "PARTI-USDT-SWAP": 0.04417,
-    "PUMP-USDT-SWAP": 0.00394,
-    "WLD-USDT-SWAP": 0.3719
+    "BTC-USDT-SWAP": 77135.3,
+    "SOL-USDT-SWAP": 92.25,
+    "PARTI-USDT-SWAP": 0.04416,
+    "PUMP-USDT-SWAP": 0.003983,
+    "WLD-USDT-SWAP": 0.3729
   },
   "summary": [
     {
