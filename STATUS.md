@@ -1,8 +1,8 @@
 # Live scoreboard
 
-**Updated:** 2026-11-06 23:25:42 UTC &middot; tick #861 &middot; started 2026-08-14 at A$100.00 (US$70.52)
+**Updated:** 2026-11-07 03:03:37 UTC &middot; tick #862 &middot; started 2026-08-14 at A$100.00 (US$70.52)
 
-**Trading:** BTC-USDT-SWAP, SOL-USDT-SWAP, PARTI-USDT-SWAP, PUMP-USDT-SWAP, WLD-USDT-SWAP
+**Trading:** BTC-USDT-SWAP, SOL-USDT-SWAP, ZEC-USDT-SWAP, PEPE-USDT-SWAP, HYPE-USDT-SWAP
 
 | Book | USD | AUD | Return | Trades | Win% | Open | Liq | Fees | Funding |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|

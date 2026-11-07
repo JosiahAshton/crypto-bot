@@ -5,12 +5,12 @@
   "universe": [
     "BTC-USDT-SWAP",
     "SOL-USDT-SWAP",
-    "PARTI-USDT-SWAP",
-    "PUMP-USDT-SWAP",
-    "WLD-USDT-SWAP"
+    "ZEC-USDT-SWAP",
+    "PEPE-USDT-SWAP",
+    "HYPE-USDT-SWAP"
   ],
-  "last_screen": "2026-10-31 01:53:08+00:00",
-  "last_bar": "2026-11-06 22:00:00+00:00",
+  "last_screen": "2026-11-07 03:03:37+00:00",
+  "last_bar": "2026-11-07 02:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -20,7 +20,7 @@
         "cash": 111.14638481838819,
         "positions": {},
         "peak_equity": 129.3186693191056,
-        "day_key": "2026-11-06",
+        "day_key": "2026-11-07",
         "day_start_equity": 111.14638481838819,
         "halted_until": null,
         "dead": false,
@@ -36,7 +36,7 @@
         "cash": 195.79999940426856,
         "positions": {},
         "peak_equity": 370.86275825532704,
-        "day_key": "2026-11-06",
+        "day_key": "2026-11-07",
         "day_start_equity": 195.79999940426856,
         "halted_until": null,
         "dead": false,
@@ -52,7 +52,7 @@
         "cash": 37.86714850642812,
         "positions": {},
         "peak_equity": 417.57328086074324,
-        "day_key": "2026-11-06",
+        "day_key": "2026-11-07",
         "day_start_equity": 37.86714850642812,
         "halted_until": null,
         "dead": false,
@@ -68,7 +68,7 @@
         "cash": 183.70901406501065,
         "positions": {},
         "peak_equity": 434.7167693856179,
-        "day_key": "2026-11-06",
+        "day_key": "2026-11-07",
         "day_start_equity": 183.70901406501065,
         "halted_until": null,
         "dead": false,
@@ -104,14 +104,14 @@
     },
     "cooldown": {}
   },
-  "ticks": 861,
-  "updated_at": "2026-11-06 23:25:42+00:00",
+  "ticks": 862,
+  "updated_at": "2026-11-07 03:03:37+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 75900.4,
-    "SOL-USDT-SWAP": 90.14,
-    "PARTI-USDT-SWAP": 0.04791,
-    "PUMP-USDT-SWAP": 0.003897,
-    "WLD-USDT-SWAP": 0.3444
+    "BTC-USDT-SWAP": 76053.4,
+    "SOL-USDT-SWAP": 90.41,
+    "ZEC-USDT-SWAP": 1346.22,
+    "PEPE-USDT-SWAP": 5.0149e-06,
+    "HYPE-USDT-SWAP": 79.51
   },
   "summary": [
     {
