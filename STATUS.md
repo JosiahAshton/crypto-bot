@@ -1,21 +1,25 @@
 # Live scoreboard
 
-**Updated:** 2026-11-08 20:37:22 UTC &middot; tick #870 &middot; started 2026-08-14 at A$100.00 (US$70.52)
+**Updated:** 2026-11-09 00:01:29 UTC &middot; tick #871 &middot; started 2026-08-14 at A$100.00 (US$70.52)
 
 **Trading:** BTC-USDT-SWAP, SOL-USDT-SWAP, ZEC-USDT-SWAP, PEPE-USDT-SWAP, HYPE-USDT-SWAP
 
 | Book | USD | AUD | Return | Trades | Win% | Open | Liq | Fees | Funding |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Conservative 2% | $111.15 | A$157.62 | +57.6% | 34 | 38% | 0 | 0 | $1.65 | $0.51 |
-| Aggressive 8% | $195.80 | A$277.66 | +177.7% | 34 | 38% | 0 | 0 | $13.20 | $2.16 |
-| Degen 20% | $37.87 | A$53.70 | -46.3% | 32 | 34% | 0 | 0 | $15.89 | $3.47 |
-| Optimal 12% | $183.71 | A$260.52 | +160.5% | 34 | 38% | 0 | 0 | $19.77 | $3.33 |
+| Conservative 2% | $108.76 | A$154.23 | +54.2% | 35 | 37% | 0 | 0 | $1.76 | $0.51 |
+| Aggressive 8% | $178.97 | A$253.79 | +153.8% | 35 | 37% | 0 | 0 | $14.01 | $2.16 |
+| Degen 20% | $30.86 | A$43.76 | -56.2% | 33 | 33% | 0 | 0 | $16.23 | $3.47 |
+| Optimal 12% | $160.01 | A$226.91 | +126.9% | 35 | 37% | 0 | 0 | $20.91 | $3.33 |
 | Max Leverage 100x **DEAD** | $4.48 | A$6.35 | -93.6% | 15 | 7% | 0 | 0 | $23.78 | $2.72 |
 
 ## Recent closed trades
 
 | Time | Book | Symbol | Side | Module | Lev | PnL $ | Exit |
 |---|---|---|---|---|---:|---:|---|
+| 2026-11-08 21:00 | E_optimal | HYPE-USDT-SWAP | long | meanrev | 13.0x | -23.369 | stop |
+| 2026-11-08 21:00 | C_degen | HYPE-USDT-SWAP | long | meanrev | 13.0x | -6.911 | stop |
+| 2026-11-08 21:00 | B_aggressive | HYPE-USDT-SWAP | long | meanrev | 13.0x | -16.599 | stop |
+| 2026-11-08 21:00 | A_conservative | HYPE-USDT-SWAP | long | meanrev | 13.0x | -2.354 | stop |
 | 2026-11-05 15:00 | E_optimal | PUMP-USDT-SWAP | long | breakout | 5.2x | -25.384 | stop |
 | 2026-11-05 15:00 | C_degen | PUMP-USDT-SWAP | long | breakout | 5.2x | -9.616 | stop |
 | 2026-11-05 15:00 | B_aggressive | PUMP-USDT-SWAP | long | breakout | 5.2x | -17.234 | stop |
@@ -37,10 +41,6 @@
 | 2026-10-22 08:00 | C_degen | SOL-USDT-SWAP | long | breakout | 11.0x | -20.709 | stop |
 | 2026-10-22 08:00 | B_aggressive | SOL-USDT-SWAP | long | breakout | 11.0x | -22.849 | stop |
 | 2026-10-22 08:00 | A_conservative | SOL-USDT-SWAP | long | breakout | 11.0x | -2.452 | stop |
-| 2026-10-22 07:00 | E_optimal | WLD-USDT-SWAP | long | breakout | 4.4x | -36.681 | stop |
-| 2026-10-22 07:00 | C_degen | WLD-USDT-SWAP | long | breakout | 4.4x | -18.066 | stop |
-| 2026-10-22 07:00 | B_aggressive | WLD-USDT-SWAP | long | breakout | 4.4x | -21.531 | stop |
-| 2026-10-22 07:00 | A_conservative | WLD-USDT-SWAP | long | breakout | 4.4x | -2.403 | stop |
 
 ---
 
