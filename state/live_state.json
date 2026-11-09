@@ -10,7 +10,7 @@
     "HYPE-USDT-SWAP"
   ],
   "last_screen": "2026-11-07 03:03:37+00:00",
-  "last_bar": "2026-11-08 23:00:00+00:00",
+  "last_bar": "2026-11-09 05:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -20,8 +20,8 @@
         "cash": 108.75919157766249,
         "positions": {},
         "peak_equity": 129.3186693191056,
-        "day_key": "2026-11-08",
-        "day_start_equity": 111.14638481838819,
+        "day_key": "2026-11-09",
+        "day_start_equity": 108.75919157766249,
         "halted_until": null,
         "dead": false,
         "n_trades": 35,
@@ -36,8 +36,8 @@
         "cash": 178.96694249135405,
         "positions": {},
         "peak_equity": 370.86275825532704,
-        "day_key": "2026-11-08",
-        "day_start_equity": 195.79999940426856,
+        "day_key": "2026-11-09",
+        "day_start_equity": 178.96694249135405,
         "halted_until": null,
         "dead": false,
         "n_trades": 35,
@@ -52,8 +52,8 @@
         "cash": 30.85897739007474,
         "positions": {},
         "peak_equity": 417.57328086074324,
-        "day_key": "2026-11-08",
-        "day_start_equity": 37.86714850642812,
+        "day_key": "2026-11-09",
+        "day_start_equity": 30.85897739007474,
         "halted_until": null,
         "dead": false,
         "n_trades": 33,
@@ -68,8 +68,8 @@
         "cash": 160.0109171491144,
         "positions": {},
         "peak_equity": 434.7167693856179,
-        "day_key": "2026-11-08",
-        "day_start_equity": 183.70901406501065,
+        "day_key": "2026-11-09",
+        "day_start_equity": 160.0109171491144,
         "halted_until": null,
         "dead": false,
         "n_trades": 35,
@@ -102,20 +102,15 @@
       "E_optimal": [],
       "D_max_leverage": []
     },
-    "cooldown": {
-      "A_conservative|HYPE-USDT-SWAP": 3,
-      "B_aggressive|HYPE-USDT-SWAP": 3,
-      "C_degen|HYPE-USDT-SWAP": 3,
-      "E_optimal|HYPE-USDT-SWAP": 3
-    }
+    "cooldown": {}
   },
-  "ticks": 871,
-  "updated_at": "2026-11-09 00:01:29+00:00",
+  "ticks": 872,
+  "updated_at": "2026-11-09 06:14:36+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 74606.1,
-    "SOL-USDT-SWAP": 86.37,
-    "ZEC-USDT-SWAP": 1208.25,
-    "PEPE-USDT-SWAP": 4.9424e-06,
+    "BTC-USDT-SWAP": 74551.7,
+    "SOL-USDT-SWAP": 86.53,
+    "ZEC-USDT-SWAP": 1217.99,
+    "PEPE-USDT-SWAP": 5.042e-06,
     "HYPE-USDT-SWAP": 74.316
   },
   "summary": [
