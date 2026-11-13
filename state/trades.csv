@@ -321,3 +321,6 @@ time,book,symbol,module,side,entry,exit,qty,notional,leverage,margin,pnl,fees,fu
 2026-11-10 16:00:00+00:00,C_degen,HYPE-USDT-SWAP,breakout,short,71.471021,,1.0818872423843655,77.32,6.0,12.8477,,0.0387,0.0,0,OPEN donchian break er=0.46 ext=0.35atr,0.0387
 2026-11-10 16:00:00+00:00,E_optimal,SOL-USDT-SWAP,breakout,short,81.93038,,3.657532312782919,299.66,7.6,39.6658,,0.1498,0.0,0,OPEN donchian break er=0.55 ext=0.07atr,100.4865
 2026-11-10 16:00:00+00:00,E_optimal,HYPE-USDT-SWAP,breakout,short,71.470868,,4.057098370497377,289.96,6.0,48.179,,0.145,0.0,0,OPEN donchian break er=0.46 ext=0.35atr,52.1626
+2026-11-13 03:00:00+00:00,A_conservative,BTC-USDT-SWAP,breakout,short,70045.68839,,0.001029437663439438,72.11,14.7,4.9154,,0.0361,0.0,0,OPEN donchian break er=0.76 ext=0.74atr,90.456
+2026-11-13 03:00:00+00:00,B_aggressive,BTC-USDT-SWAP,breakout,short,70045.410023,,0.0066899401105170574,468.6,14.7,31.9432,,0.2343,0.0,0,OPEN donchian break er=0.76 ext=0.74atr,63.5029
+2026-11-13 03:00:00+00:00,E_optimal,BTC-USDT-SWAP,breakout,short,70045.303251,,0.00886113193008259,620.68,14.7,42.3101,,0.3103,0.0,0,OPEN donchian break er=0.76 ext=0.74atr,9.8036
