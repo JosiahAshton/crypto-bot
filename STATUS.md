@@ -1,21 +1,25 @@
 # Live scoreboard
 
-**Updated:** 2026-11-23 06:22:16 UTC &middot; tick #922 &middot; started 2026-08-14 at A$100.00 (US$70.52)
+**Updated:** 2026-11-23 18:38:49 UTC &middot; tick #923 &middot; started 2026-08-14 at A$100.00 (US$70.52)
 
 **Trading:** BTC-USDT-SWAP, SOL-USDT-SWAP, ZEC-USDT-SWAP, PEPE-USDT-SWAP, NEAR-USDT-SWAP
 
 | Book | USD | AUD | Return | Trades | Win% | Open | Liq | Fees | Funding |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Conservative 2% | $123.89 | A$175.69 | +75.7% | 40 | 40% | 1 | 0 | $1.97 | $0.46 |
-| Aggressive 8% | $262.44 | A$372.16 | +272.1% | 40 | 40% | 1 | 0 | $15.48 | $1.78 |
-| Degen 20% | $35.50 | A$50.34 | -49.7% | 38 | 34% | 1 | 0 | $16.64 | $3.36 |
-| Optimal 12% | $261.20 | A$370.40 | +270.4% | 40 | 40% | 1 | 0 | $22.92 | $2.82 |
+| Conservative 2% | $122.34 | A$173.49 | +73.5% | 41 | 39% | 0 | 0 | $1.99 | $0.45 |
+| Aggressive 8% | $247.60 | A$351.12 | +251.1% | 41 | 39% | 0 | 0 | $15.61 | $1.76 |
+| Degen 20% | $29.50 | A$41.83 | -58.2% | 39 | 33% | 0 | 0 | $16.69 | $3.35 |
+| Optimal 12% | $237.55 | A$336.86 | +236.8% | 41 | 39% | 0 | 0 | $23.11 | $2.79 |
 | Max Leverage 100x **DEAD** | $4.48 | A$6.35 | -93.6% | 15 | 7% | 0 | 0 | $23.78 | $2.72 |
 
 ## Recent closed trades
 
 | Time | Book | Symbol | Side | Module | Lev | PnL $ | Exit |
 |---|---|---|---|---|---:|---:|---|
+| 2026-11-23 13:00 | E_optimal | ZEC-USDT-SWAP | short | breakout | 3.6x | -39.480 | stop |
+| 2026-11-23 13:00 | C_degen | ZEC-USDT-SWAP | short | breakout | 3.6x | -10.012 | stop |
+| 2026-11-23 13:00 | B_aggressive | ZEC-USDT-SWAP | short | breakout | 3.6x | -24.760 | stop |
+| 2026-11-23 13:00 | A_conservative | ZEC-USDT-SWAP | short | breakout | 3.6x | -2.602 | stop |
 | 2026-11-23 02:00 | E_optimal | BTC-USDT-SWAP | short | breakout | 14.7x | +83.547 | time stop |
 | 2026-11-23 02:00 | B_aggressive | BTC-USDT-SWAP | short | breakout | 14.7x | +63.078 | time stop |
 | 2026-11-23 02:00 | A_conservative | BTC-USDT-SWAP | short | breakout | 14.7x | +9.707 | time stop |
@@ -37,10 +41,6 @@
 | 2026-11-10 15:00 | B_aggressive | ZEC-USDT-SWAP | long | meanrev | 7.2x | -14.566 | stop |
 | 2026-11-10 15:00 | A_conservative | ZEC-USDT-SWAP | long | meanrev | 7.2x | -2.213 | stop |
 | 2026-11-08 21:00 | E_optimal | HYPE-USDT-SWAP | long | meanrev | 13.0x | -23.369 | stop |
-| 2026-11-08 21:00 | C_degen | HYPE-USDT-SWAP | long | meanrev | 13.0x | -6.911 | stop |
-| 2026-11-08 21:00 | B_aggressive | HYPE-USDT-SWAP | long | meanrev | 13.0x | -16.599 | stop |
-| 2026-11-08 21:00 | A_conservative | HYPE-USDT-SWAP | long | meanrev | 13.0x | -2.354 | stop |
-| 2026-11-05 15:00 | E_optimal | PUMP-USDT-SWAP | long | breakout | 5.2x | -25.384 | stop |
 
 ---
 
