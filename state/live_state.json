@@ -10,7 +10,7 @@
     "NEAR-USDT-SWAP"
   ],
   "last_screen": "2026-11-21 11:36:23+00:00",
-  "last_bar": "2026-11-23 17:00:00+00:00",
+  "last_bar": "2026-11-24 03:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -20,8 +20,8 @@
         "cash": 122.33547412559474,
         "positions": {},
         "peak_equity": 136.37331856499057,
-        "day_key": "2026-11-23",
-        "day_start_equity": 122.95329741691747,
+        "day_key": "2026-11-24",
+        "day_start_equity": 122.33547412559474,
         "halted_until": null,
         "dead": false,
         "n_trades": 41,
@@ -36,8 +36,8 @@
         "cash": 247.60188493738224,
         "positions": {},
         "peak_equity": 370.86275825532704,
-        "day_key": "2026-11-23",
-        "day_start_equity": 255.65598157457333,
+        "day_key": "2026-11-24",
+        "day_start_equity": 247.60188493738224,
         "halted_until": null,
         "dead": false,
         "n_trades": 41,
@@ -52,8 +52,8 @@
         "cash": 29.500585107502545,
         "positions": {},
         "peak_equity": 417.57328086074324,
-        "day_key": "2026-11-23",
-        "day_start_equity": 34.64940172504887,
+        "day_key": "2026-11-24",
+        "day_start_equity": 29.500585107502545,
         "halted_until": null,
         "dead": false,
         "n_trades": 39,
@@ -68,8 +68,8 @@
         "cash": 237.545052741296,
         "positions": {},
         "peak_equity": 434.7167693856179,
-        "day_key": "2026-11-23",
-        "day_start_equity": 251.65085192571928,
+        "day_key": "2026-11-24",
+        "day_start_equity": 237.545052741296,
         "halted_until": null,
         "dead": false,
         "n_trades": 41,
@@ -102,21 +102,16 @@
       "E_optimal": [],
       "D_max_leverage": []
     },
-    "cooldown": {
-      "A_conservative|ZEC-USDT-SWAP": 1,
-      "B_aggressive|ZEC-USDT-SWAP": 1,
-      "C_degen|ZEC-USDT-SWAP": 1,
-      "E_optimal|ZEC-USDT-SWAP": 1
-    }
+    "cooldown": {}
   },
-  "ticks": 923,
-  "updated_at": "2026-11-23 18:38:49+00:00",
+  "ticks": 924,
+  "updated_at": "2026-11-24 04:05:44+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 61354.1,
-    "SOL-USDT-SWAP": 73.39,
-    "ZEC-USDT-SWAP": 815.06,
-    "PEPE-USDT-SWAP": 3.502e-06,
-    "NEAR-USDT-SWAP": 3.069
+    "BTC-USDT-SWAP": 60290.5,
+    "SOL-USDT-SWAP": 71.36,
+    "ZEC-USDT-SWAP": 757.76,
+    "PEPE-USDT-SWAP": 3.4621e-06,
+    "NEAR-USDT-SWAP": 2.986
   },
   "summary": [
     {
