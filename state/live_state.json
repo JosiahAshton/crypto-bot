@@ -10,7 +10,7 @@
     "NEAR-USDT-SWAP"
   ],
   "last_screen": "2026-11-21 11:36:23+00:00",
-  "last_bar": "2026-11-26 07:00:00+00:00",
+  "last_bar": "2026-11-26 17:00:00+00:00",
   "portfolio": {
     "start_usd": 70.52,
     "state": {
@@ -104,14 +104,14 @@
     },
     "cooldown": {}
   },
-  "ticks": 930,
-  "updated_at": "2026-11-26 08:52:54+00:00",
+  "ticks": 931,
+  "updated_at": "2026-11-26 18:52:17+00:00",
   "last_prices": {
-    "BTC-USDT-SWAP": 60896.6,
-    "SOL-USDT-SWAP": 71.13,
-    "ZEC-USDT-SWAP": 752.39,
-    "PEPE-USDT-SWAP": 3.5494e-06,
-    "NEAR-USDT-SWAP": 3.074
+    "BTC-USDT-SWAP": 60454.3,
+    "SOL-USDT-SWAP": 71.21,
+    "ZEC-USDT-SWAP": 712.77,
+    "PEPE-USDT-SWAP": 3.5199e-06,
+    "NEAR-USDT-SWAP": 3.09
   },
   "summary": [
     {
